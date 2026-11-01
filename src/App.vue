@@ -66,6 +66,7 @@ const navActive = 'border-neutral-900 font-semibold dark:border-neutral-100'
             chara_is_costume: boolean
           }) => currentUser && Object.assign(currentUser, c)
         "
+        @puchi-updated="(v: number) => currentUser && (currentUser.chara_acce_index = v)"
         @import-requested="() => currentUser && (currentUser.import_requested = true)"
       />
     </router-view>

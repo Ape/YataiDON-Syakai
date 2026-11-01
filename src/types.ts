@@ -37,5 +37,7 @@ export interface UserData {
   chara_body_index: number
   chara_cos_index: number
   chara_is_costume: boolean
+  chara_acce_index: number
+  unlocked_puchicharas: number[]
   scores: Score[]
 }

@@ -211,6 +211,10 @@ export default {
     head: 'Head',
     saveCostume: 'Save Costume',
     costumeSaveError: 'Could not save costume. Please try again.',
+    puchichara: 'Puchichara',
+    puchiNone: 'None',
+    savePuchi: 'Save Puchichara',
+    puchiSaveError: 'Could not save puchichara. Please try again.',
     loginOnPhone: 'Log in on phone',
     tapToReveal: 'Tap to reveal',
     qrHint:

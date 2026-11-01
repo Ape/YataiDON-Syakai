@@ -16,7 +16,8 @@ bun run dev
 
 ## Assets
 
-`public/costumes/` is gitignored. Supply your own: `costume_names.json` plus `costume_icon/`, `costume_head_icon/` and `costume_body_icon/` PNGs from the skin.
+`public/costumes/` is gitignored.
+`costume_names.json`, `costume_icon/`, `costume_head_icon/`, `costume_body_icon/`, `acce/` are optionally required.
 
 ## Scripts
 

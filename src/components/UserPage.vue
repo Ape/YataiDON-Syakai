@@ -34,6 +34,7 @@ const emit = defineEmits<{
       chara_is_costume: boolean
     },
   ]
+  'puchi-updated': [index: number]
   'import-requested': []
 }>()
 const { t } = useI18n()
@@ -178,6 +179,35 @@ async function saveCostume() {
     costumeSaveError.value = t('user.costumeSaveError')
   } finally {
     isSavingCostume.value = false
+  }
+}
+
+function puchiUrl(id: number) {
+  return `${import.meta.env.BASE_URL}costumes/acce/${id}.png`
+}
+
+const ownedPuchis = computed(() => props.user.unlocked_puchicharas ?? [])
+const puchiIndex = ref(props.user.chara_acce_index ?? 0)
+const isSavingPuchi = ref(false)
+const puchiSaveError = ref('')
+
+async function savePuchi() {
+  isSavingPuchi.value = true
+  puchiSaveError.value = ''
+  try {
+    const response = await fetch(
+      `${API_BASE_URL}/update_puchichara?access_code=${encodeURIComponent(props.accessCode)}`,
+      {
+        method: 'POST',
+        body: new URLSearchParams({ chara_acce_index: String(puchiIndex.value) }),
+      },
+    )
+    if (!response.ok) throw new Error(`Unexpected status ${response.status}`)
+    emit('puchi-updated', puchiIndex.value)
+  } catch {
+    puchiSaveError.value = t('user.puchiSaveError')
+  } finally {
+    isSavingPuchi.value = false
   }
 }
 
@@ -384,6 +414,31 @@ async function saveUsername() {
 
       <button type="button" class="btn" :disabled="isSavingCostume" @click="saveCostume">{{ $t('user.saveCostume') }}</button>
       <p v-if="costumeSaveError" class="error-text text-sm">{{ costumeSaveError }}</p>
+    </div>
+
+    <div v-if="ownedPuchis.length" class="flex w-full flex-col items-center gap-2">
+      <span class="muted text-sm">{{ $t('user.puchichara') }}</span>
+      <div class="grid max-h-72 w-full grid-cols-4 gap-2 overflow-y-auto rounded-md border border-neutral-300 p-2 sm:grid-cols-6 dark:border-neutral-700">
+        <button
+          v-for="id in [0, ...ownedPuchis]"
+          :key="id"
+          type="button"
+          class="flex items-center justify-center rounded-md border p-1"
+          :class="puchiIndex === id ? 'border-neutral-900 bg-neutral-200 dark:border-neutral-100 dark:bg-neutral-700' : 'border-transparent hover:bg-neutral-100 dark:hover:bg-neutral-800'"
+          @click="puchiIndex = id"
+        >
+          <!-- sheets are two frames stacked vertically; show the top one -->
+          <img
+            v-if="id"
+            :src="puchiUrl(id)"
+            alt=""
+            class="h-12 w-12 object-cover object-top"
+          />
+          <span v-else class="muted flex h-12 w-12 items-center justify-center text-xs">{{ $t('user.puchiNone') }}</span>
+        </button>
+      </div>
+      <button type="button" class="btn" :disabled="isSavingPuchi" @click="savePuchi">{{ $t('user.savePuchi') }}</button>
+      <p v-if="puchiSaveError" class="error-text text-sm">{{ puchiSaveError }}</p>
     </div>
 
     <div class="flex flex-col items-center gap-2">
