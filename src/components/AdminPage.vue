@@ -210,6 +210,7 @@ interface ApiKey {
   created_at: string
   revoked_at: string | null
   last_used: string | null
+  tournament: boolean
 }
 
 const apiKeys = ref<ApiKey[]>([])
@@ -255,6 +256,20 @@ async function revokeApiKey(key: ApiKey) {
     await fetchApiKeys()
   } catch {
     apiKeyError.value = t('admin.apiKeyRevokeError')
+  }
+}
+
+async function setTournament(key: ApiKey, enabled: boolean) {
+  apiKeyError.value = ''
+  try {
+    const response = await fetch(
+      `${API_BASE_URL}/admin/api_keys/${encodeURIComponent(key.key_id)}/tournament?enabled=${enabled}&admin_key=${encodeURIComponent(adminKey.value)}`,
+      { method: 'POST' },
+    )
+    if (!response.ok) throw new Error(`Unexpected status ${response.status}`)
+    await fetchApiKeys()
+  } catch {
+    apiKeyError.value = t('admin.apiKeyTournamentError')
   }
 }
 
@@ -463,6 +478,7 @@ function switchSuspiciousTab(tab: 'pending' | 'import_warning') {
                 <th class="th-cell">{{ $t('admin.thCreated') }}</th>
                 <th class="th-cell">{{ $t('admin.thLastUsed') }}</th>
                 <th class="th-cell">{{ $t('admin.thStatus') }}</th>
+                <th class="th-cell" :title="$t('admin.apiKeyTournamentHint')">{{ $t('admin.thTournament') }}</th>
                 <th class="th-cell"></th>
               </tr>
             </thead>
@@ -474,13 +490,22 @@ function switchSuspiciousTab(tab: 'pending' | 'import_warning') {
                 <td class="td-cell">{{ key.last_used ? new Date(key.last_used).toLocaleString() : $t('admin.neverUsed') }}</td>
                 <td class="td-cell">{{ key.revoked_at ? $t('admin.apiKeyRevoked') : $t('admin.apiKeyActive') }}</td>
                 <td class="td-cell">
+                  <input
+                    type="checkbox"
+                    :checked="key.tournament"
+                    :disabled="!!key.revoked_at"
+                    :aria-label="$t('admin.thTournament')"
+                    @change="setTournament(key, ($event.target as HTMLInputElement).checked)"
+                  />
+                </td>
+                <td class="td-cell">
                   <button v-if="!key.revoked_at" type="button" class="btn" @click="revokeApiKey(key)">
                     {{ $t('admin.apiKeyRevoke') }}
                   </button>
                 </td>
               </tr>
               <tr v-if="apiKeys.length === 0">
-                <td class="td-cell muted" colspan="6">{{ $t('admin.noApiKeys') }}</td>
+                <td class="td-cell muted" colspan="7">{{ $t('admin.noApiKeys') }}</td>
               </tr>
             </tbody>
           </table>
