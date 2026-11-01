@@ -34,7 +34,7 @@ const emit = defineEmits<{
       chara_is_costume: boolean
     },
   ]
-  'puchi-updated': [index: number]
+  'puchi-updated': [puchichara: number | null]
   'import-requested': []
 }>()
 const { t } = useI18n()
@@ -186,8 +186,8 @@ function puchiUrl(id: number) {
   return `${import.meta.env.BASE_URL}costumes/acce/${id}.png`
 }
 
-const ownedPuchis = computed(() => props.user.unlocked_puchicharas ?? [])
-const puchiIndex = ref(props.user.chara_acce_index ?? 0)
+const ownedPuchis = computed(() => props.user.owned_puchichara ?? [])
+const puchiIndex = ref(props.user.puchichara ?? -1)
 const isSavingPuchi = ref(false)
 const puchiSaveError = ref('')
 
@@ -199,11 +199,11 @@ async function savePuchi() {
       `${API_BASE_URL}/update_puchichara?access_code=${encodeURIComponent(props.accessCode)}`,
       {
         method: 'POST',
-        body: new URLSearchParams({ chara_acce_index: String(puchiIndex.value) }),
+        body: new URLSearchParams({ puchichara: String(puchiIndex.value) }),
       },
     )
     if (!response.ok) throw new Error(`Unexpected status ${response.status}`)
-    emit('puchi-updated', puchiIndex.value)
+    emit('puchi-updated', puchiIndex.value >= 0 ? puchiIndex.value : null)
   } catch {
     puchiSaveError.value = t('user.puchiSaveError')
   } finally {
@@ -420,7 +420,7 @@ async function saveUsername() {
       <span class="muted text-sm">{{ $t('user.puchichara') }}</span>
       <div class="grid max-h-72 w-full grid-cols-4 gap-2 overflow-y-auto rounded-md border border-neutral-300 p-2 sm:grid-cols-6 dark:border-neutral-700">
         <button
-          v-for="id in [0, ...ownedPuchis]"
+          v-for="id in [-1, ...ownedPuchis]"
           :key="id"
           type="button"
           class="flex items-center justify-center rounded-md border p-1"
@@ -429,7 +429,7 @@ async function saveUsername() {
         >
           <!-- sheets are two frames stacked vertically; show the top one -->
           <img
-            v-if="id"
+            v-if="id >= 0"
             :src="puchiUrl(id)"
             alt=""
             class="h-12 w-12 object-cover object-top"
