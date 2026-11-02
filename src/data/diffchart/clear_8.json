@@ -4,14 +4,18 @@
   "type": "clear",
   "data": {
     "name": "8 level clear",
+    "color": "#000000",
+    "backgroundColor": "#000000",
     "sections": [
       {
         "name": "S",
         "order": 0,
+        "color": "#000000",
+        "backgroundColor": "#000000",
         "songs": [
           {
-            "order": 0,
             "difficulty": "oni",
+            "order": 0,
             "hash": "198bda3a5bcc37607ee6dc46a3a7d3db",
             "title": {
               "en": "Amanojaku",
@@ -20,8 +24,8 @@
             }
           },
           {
-            "order": 1,
             "difficulty": "oni",
+            "order": 1,
             "hash": "bc7b5d595be25265f74c7961943fa7ec",
             "title": {
               "en": "Zenmai Shoujo-dokei",
@@ -30,18 +34,8 @@
             }
           },
           {
+            "difficulty": "oni",
             "order": 2,
-            "difficulty": "oni",
-            "hash": "06c48db0c0abe158082e78c475718523",
-            "title": {
-              "en": "Tsubomi Yumemiru Rapsodia ～Alma no Michibiki～",
-              "ja": "華蕾夢ミル狂詩曲～魂ノ導～",
-              "zh": "華蕾夢ミル狂詩曲～魂ノ導～"
-            }
-          },
-          {
-            "order": 3,
-            "difficulty": "oni",
             "hash": "35819905a751a5e40525567b718076c2",
             "title": {
               "en": "The Magician’s Dream",
@@ -50,8 +44,30 @@
             }
           },
           {
-            "order": 4,
+            "difficulty": "ura",
+            "order": 3,
+            "hash": "8bf09601cec28e712ee76da537711cda",
+            "title": {
+              "en": "Dokimeki Diary",
+              "ja": "ドキメキダイアリー",
+              "ko": "DOKIMEKI DIARY",
+              "zh": "DOKIMEKI DIARY",
+              "zh_tw": "DOKIMEKI DIARY"
+            }
+          },
+          {
             "difficulty": "oni",
+            "order": 4,
+            "hash": "06c48db0c0abe158082e78c475718523",
+            "title": {
+              "en": "Tsubomi Yumemiru Rapsodia ～Alma no Michibiki～",
+              "ja": "華蕾夢ミル狂詩曲～魂ノ導～",
+              "zh": "華蕾夢ミル狂詩曲～魂ノ導～"
+            }
+          },
+          {
+            "difficulty": "oni",
+            "order": 5,
             "hash": "87889c5f5d4b4ec1b61c2f8afedb5d1c",
             "title": {
               "en": "Yubisaki Kara Hajimaru Monogatari",
@@ -60,8 +76,8 @@
             }
           },
           {
-            "order": 5,
             "difficulty": "oni",
+            "order": 6,
             "hash": "ac8da70b26d61d767a3567b68478468a",
             "title": {
               "en": "Uso-uso Doki",
@@ -71,8 +87,8 @@
             }
           },
           {
-            "order": 6,
             "difficulty": "oni",
+            "order": 7,
             "hash": "2bed9cc659aee09162658fb37f413482",
             "title": {
               "en": "Racing the Storm",
@@ -81,8 +97,8 @@
             }
           },
           {
-            "order": 7,
             "difficulty": "oni",
+            "order": 8,
             "hash": "6a611ca495f4ff3ca026c03ed428e211",
             "title": {
               "en": "Blue Rose Ruin",
@@ -91,8 +107,8 @@
             }
           },
           {
-            "order": 8,
             "difficulty": "oni",
+            "order": 9,
             "hash": "f6751ac7feb2596df2f726a9aaebe235",
             "title": {
               "en": "Taiko Ranbu Kaiden",
@@ -102,8 +118,8 @@
             }
           },
           {
-            "order": 9,
             "difficulty": "oni",
+            "order": 10,
             "hash": "836f594dac57fb74bd943f22819b11a9",
             "title": {
               "en": "Silent Jealousy",
@@ -112,8 +128,8 @@
             }
           },
           {
-            "order": 10,
             "difficulty": "oni",
+            "order": 11,
             "hash": "84d9d849e3cc534235344883229e5cdf",
             "title": {
               "en": "Tokyo Teddy Bear",
@@ -122,8 +138,8 @@
             }
           },
           {
-            "order": 11,
             "difficulty": "oni",
+            "order": 12,
             "hash": "9343c92a3ad7c0adfced3383cd6746b9",
             "title": {
               "en": "Nightmare Survivor",
@@ -133,8 +149,8 @@
             }
           },
           {
-            "order": 12,
             "difficulty": "oni",
+            "order": 13,
             "hash": "95103b42918c9b7a5a31673add92a339",
             "title": {
               "en": "Gekkabijin",
@@ -144,8 +160,8 @@
             }
           },
           {
-            "order": 13,
             "difficulty": "ura",
+            "order": 14,
             "hash": "614a431b2a21c363177e80901f384025",
             "title": {
               "en": "Donko no First Date",
@@ -155,8 +171,8 @@
             }
           },
           {
-            "order": 14,
             "difficulty": "oni",
+            "order": 15,
             "hash": "815f08c36d312b9faae2ec019bb1f18b",
             "title": {
               "en": "Picopico Mappy",
@@ -165,8 +181,8 @@
             }
           },
           {
-            "order": 15,
             "difficulty": "oni",
+            "order": 16,
             "hash": "b80d9ead64211a7f98e0fd5783d1ad23",
             "title": {
               "en": "Oresama Pirates",
@@ -176,8 +192,8 @@
             }
           },
           {
-            "order": 16,
             "difficulty": "oni",
+            "order": 17,
             "hash": "4aeb1b087ad14d552ae7163c156d9de6",
             "title": {
               "en": "Gashadokuro",
@@ -187,8 +203,8 @@
             }
           },
           {
-            "order": 17,
             "difficulty": "ura",
+            "order": 18,
             "hash": "de77c883deab98b527260a8da27c00f0",
             "title": {
               "en": "Taiko-zamurai -New Audio/Chart-",
@@ -198,8 +214,8 @@
             }
           },
           {
-            "order": 18,
             "difficulty": "ura",
+            "order": 19,
             "hash": "9c4bc3cbc28e00de0688da5431e52531",
             "title": {
               "en": "Saturday Taiko Fever",
@@ -209,8 +225,8 @@
             }
           },
           {
-            "order": 19,
             "difficulty": "oni",
+            "order": 20,
             "hash": "2fd5710a4306e9fa2947d3b9cd913f8e",
             "title": {
               "en": "Alexander no Theme",
@@ -220,8 +236,8 @@
             }
           },
           {
-            "order": 20,
             "difficulty": "oni",
+            "order": 21,
             "hash": "7a777f2299e8404295aa7dc45d90cfa6",
             "title": {
               "en": "Jikuuchou Sousa 2-ka",
@@ -231,8 +247,8 @@
             }
           },
           {
-            "order": 21,
             "difficulty": "oni",
+            "order": 22,
             "hash": "7fcd886e160b973338f1c8a92741e8bd",
             "title": {
               "en": "Irodoru♡Future",
@@ -241,8 +257,8 @@
             }
           },
           {
-            "order": 22,
             "difficulty": "oni",
+            "order": 23,
             "hash": "f6bcda33ebc9ef060bc4d645c6eade8f",
             "title": {
               "en": "Kakashi-Hime: Princess Scarecrow",
@@ -252,8 +268,8 @@
             }
           },
           {
-            "order": 23,
             "difficulty": "oni",
+            "order": 24,
             "hash": "4b0fec1433ee24197b43a28803c76802",
             "title": {
               "en": "Don-chan Shitai!",
@@ -263,8 +279,8 @@
             }
           },
           {
-            "order": 24,
             "difficulty": "oni",
+            "order": 25,
             "hash": "a0c54d26a2b2aab196fde4fc6f4b5c94",
             "title": {
               "en": "Purupuru Simple",
@@ -274,8 +290,17 @@
             }
           },
           {
-            "order": 25,
+            "difficulty": "ura",
+            "order": 26,
+            "hash": null,
+            "title": {
+              "ja": "ワールドイズマイン CPK! Remix (かぐや&月見ヤチヨ ver.)",
+              "ko": "World Is Mine CPK! Remix (가구야&루나미 야치요 ver.)"
+            }
+          },
+          {
             "difficulty": "oni",
+            "order": 27,
             "hash": "2e78eb23a6a04548d2a89074c3d60ff3",
             "title": {
               "en": "Lost One no Goukoku",
@@ -285,8 +310,8 @@
             }
           },
           {
-            "order": 26,
             "difficulty": "oni",
+            "order": 28,
             "hash": "78985375ab45e8dbd5cc16b623d96efe",
             "title": {
               "en": "AmaterasuJK",
@@ -296,8 +321,8 @@
             }
           },
           {
-            "order": 27,
             "difficulty": "oni",
+            "order": 29,
             "hash": "74436fa58e0329f409100ed14ecd8947",
             "title": {
               "en": "Bakemono Tsukiyo",
@@ -307,16 +332,16 @@
             }
           },
           {
-            "order": 28,
             "difficulty": "oni",
+            "order": 30,
             "hash": "10cdc19228f6a9df532ad5ccd3fa54c5",
             "title": {
               "ja": "IRIS OUT"
             }
           },
           {
-            "order": 29,
             "difficulty": "oni",
+            "order": 31,
             "hash": "b1e30a856a5486758353f5c30ac1f661",
             "title": {
               "en": "Tell-me Beat",
@@ -326,8 +351,8 @@
             }
           },
           {
-            "order": 30,
             "difficulty": "oni",
+            "order": 32,
             "hash": "b03920406ffbf335fb00366f135b48bf",
             "title": {
               "en": "Kabukimono, Makari-tooru!",
@@ -337,8 +362,8 @@
             }
           },
           {
-            "order": 31,
             "difficulty": "oni",
+            "order": 33,
             "hash": "971b5bdae6ec4b153008e92c4aa8787d",
             "title": {
               "en": "Konton Boogie",
@@ -346,17 +371,17 @@
               "ko": "Konton Boogie"
             }
           }
-        ],
-        "color": "#000000",
-        "backgroundColor": "#000000"
+        ]
       },
       {
         "name": "A",
         "order": 1,
+        "color": "#000000",
+        "backgroundColor": "#000000",
         "songs": [
           {
-            "order": 0,
             "difficulty": "oni",
+            "order": 0,
             "hash": "46f45ce854e68b1686835a430eb9486e",
             "title": {
               "en": "Daisuki na Taiko no Ne",
@@ -366,8 +391,8 @@
             }
           },
           {
-            "order": 1,
             "difficulty": "oni",
+            "order": 1,
             "hash": "dcac0165d4af921f2fb533a02737100f",
             "title": {
               "en": "Rocket Mode",
@@ -377,8 +402,8 @@
             }
           },
           {
-            "order": 2,
             "difficulty": "oni",
+            "order": 2,
             "hash": "4ac091a782a2dc073e1bd5e6dc0c6ef8",
             "title": {
               "en": "TENSEI -Kiyoshi ga Matsu Tsuwamono-",
@@ -388,8 +413,8 @@
             }
           },
           {
-            "order": 3,
             "difficulty": "oni",
+            "order": 3,
             "hash": "c250765c60a1d2e4096a95bd478b215f",
             "title": {
               "en": "Kurenai",
@@ -399,8 +424,8 @@
             }
           },
           {
-            "order": 4,
             "difficulty": "oni",
+            "order": 4,
             "hash": "6623c92908f8145fb21bdf394e6a32b1",
             "title": {
               "en": "Rotter Tarmination",
@@ -409,8 +434,8 @@
             }
           },
           {
-            "order": 5,
             "difficulty": "oni",
+            "order": 5,
             "hash": "3d5865bdb988ebd2a57b2e1562386fa4",
             "title": {
               "en": "Netemo Netemo",
@@ -420,8 +445,8 @@
             }
           },
           {
-            "order": 6,
             "difficulty": "oni",
+            "order": 6,
             "hash": "38940db21cd1191251604a84de94e384",
             "title": {
               "en": "Great! Animal Kaiser‼",
@@ -430,8 +455,8 @@
             }
           },
           {
-            "order": 7,
             "difficulty": "ura",
+            "order": 7,
             "hash": "5946be2f3818133a5873e56280001823",
             "title": {
               "en": "Rumble Ranbu",
@@ -441,8 +466,8 @@
             }
           },
           {
-            "order": 8,
             "difficulty": "oni",
+            "order": 8,
             "hash": "295ad68ad68b13c11b00863dd91718e1",
             "title": {
               "en": "Dr. WILY STAGE 1",
@@ -450,8 +475,8 @@
             }
           },
           {
-            "order": 9,
             "difficulty": "oni",
+            "order": 9,
             "hash": "394f47d741ddd98d2830281188d9f336",
             "title": {
               "en": "Eternal bond",
@@ -460,8 +485,16 @@
             }
           },
           {
-            "order": 10,
             "difficulty": "oni",
+            "order": 10,
+            "hash": null,
+            "title": {
+              "ja": "じゃがりこ　りみっくす"
+            }
+          },
+          {
+            "difficulty": "oni",
+            "order": 11,
             "hash": "0ab9589d5279cd4b2002bc1d5f58e67f",
             "title": {
               "en": "Kinniku no You na Bokura ～Muscle Love Theme～",
@@ -471,8 +504,8 @@
             }
           },
           {
-            "order": 11,
             "difficulty": "ura",
+            "order": 12,
             "hash": "65543ac48d75c9517aaa4628d639605f",
             "title": {
               "en": "Kagerou Daze",
@@ -482,8 +515,8 @@
             }
           },
           {
-            "order": 12,
             "difficulty": "ura",
+            "order": 13,
             "hash": "614a431b2a21c363177e80901f384025",
             "title": {
               "en": "Donko no First Date",
@@ -493,8 +526,8 @@
             }
           },
           {
-            "order": 13,
             "difficulty": "oni",
+            "order": 14,
             "hash": "37a4e90ced7523fa4482f0837ced8cc7",
             "title": {
               "en": "Kuon no Yoru",
@@ -504,8 +537,8 @@
             }
           },
           {
-            "order": 14,
             "difficulty": "oni",
+            "order": 15,
             "hash": "e27d9ba691297d21b05df89eb5ffba32",
             "title": {
               "en": "Dodon ga Do～n",
@@ -515,8 +548,8 @@
             }
           },
           {
-            "order": 15,
             "difficulty": "oni",
+            "order": 16,
             "hash": "3b7d37f8fc52f41298be8ced7533eba9",
             "title": {
               "en": "Ouka Ranman",
@@ -526,8 +559,8 @@
             }
           },
           {
-            "order": 16,
             "difficulty": "ura",
+            "order": 17,
             "hash": "f86f6dc6ab19d21b53d6fc9c3b89af51",
             "title": {
               "en": "Habit",
@@ -536,8 +569,8 @@
             }
           },
           {
-            "order": 17,
             "difficulty": "oni",
+            "order": 18,
             "hash": "95103b42918c9b7a5a31673add92a339",
             "title": {
               "en": "Gekkabijin",
@@ -547,8 +580,8 @@
             }
           },
           {
-            "order": 18,
             "difficulty": "ura",
+            "order": 19,
             "hash": "3eee585de9f789b8c767bc000a791a5f",
             "title": {
               "en": "White Rose Insanity",
@@ -557,8 +590,8 @@
             }
           },
           {
-            "order": 19,
             "difficulty": "ura",
+            "order": 20,
             "hash": "d0ba27a5e2a479809094409c8f9ca62c",
             "title": {
               "en": "Dakara Boku wa Ongaku wo Yameta -Cover Audio-",
@@ -568,8 +601,8 @@
             }
           },
           {
-            "order": 20,
             "difficulty": "oni",
+            "order": 21,
             "hash": "624cfcf2bef737903b850c2d69616e55",
             "title": {
               "en": "Tokyo Tokkyo-kyo Kyokakyoku Kyokuchou‼",
@@ -579,8 +612,8 @@
             }
           },
           {
-            "order": 21,
             "difficulty": "oni",
+            "order": 22,
             "hash": "71c088da882e4e26a164ceae8abd1cb5",
             "title": {
               "en": "Bakuretsu Thaumazein (Prod. ChibaNyan)",
@@ -590,8 +623,8 @@
             }
           },
           {
-            "order": 22,
             "difficulty": "oni",
+            "order": 23,
             "hash": "22266b04a2094169222e4988a7ac47ef",
             "title": {
               "en": "Dai-Yuusha Tatsudon ～Saikyo no MyBachi Densetsu～",
@@ -601,8 +634,8 @@
             }
           },
           {
-            "order": 23,
             "difficulty": "oni",
+            "order": 24,
             "hash": "3b3af1f498fbe0903b5623370faae952",
             "title": {
               "en": "Brand New Theater!",
@@ -610,8 +643,8 @@
             }
           },
           {
-            "order": 24,
             "difficulty": "oni",
+            "order": 25,
             "hash": "f2ce76f26a72b415b9cea714a607dd4e",
             "title": {
               "en": "Tenbinza Kyuukou Yoru o Iku",
@@ -620,8 +653,8 @@
             }
           },
           {
-            "order": 25,
             "difficulty": "ura",
+            "order": 26,
             "hash": "b62837547ddc54d26c0d5e8aeacdbfe1",
             "title": {
               "en": "Ame to Petra",
@@ -631,8 +664,8 @@
             }
           },
           {
-            "order": 26,
             "difficulty": "oni",
+            "order": 27,
             "hash": "17a96bda158820a5a7874aee7de16172",
             "title": {
               "en": "Senkou",
@@ -642,8 +675,8 @@
             }
           },
           {
-            "order": 27,
             "difficulty": "oni",
+            "order": 28,
             "hash": "582ec7b9fe816d18cb7fbf38ac692b90",
             "title": {
               "en": "Dive to Blue",
@@ -651,8 +684,8 @@
             }
           },
           {
-            "order": 28,
             "difficulty": "oni",
+            "order": 29,
             "hash": "8c937cb9655d5a016a51ce0807d90520",
             "title": {
               "en": "LOVE Ikusa‼",
@@ -662,8 +695,8 @@
             }
           },
           {
-            "order": 29,
             "difficulty": "oni",
+            "order": 30,
             "hash": "20982d2663816c37d386311dc89bf1fa",
             "title": {
               "en": "Dragon of Spring ～Haryu～",
@@ -673,8 +706,8 @@
             }
           },
           {
-            "order": 30,
             "difficulty": "ura",
+            "order": 31,
             "hash": "8e87b717a646db2ff29d998488adaa2c",
             "title": {
               "en": "NeGa/PoSi*Love/Call",
@@ -683,8 +716,8 @@
             }
           },
           {
-            "order": 31,
             "difficulty": "oni",
+            "order": 32,
             "hash": "bbcd56ad6d78ccf56c9963d60763786b",
             "title": {
               "en": "Tokyo Soda -8-bit Edit-",
@@ -693,8 +726,8 @@
             }
           },
           {
-            "order": 32,
             "difficulty": "oni",
+            "order": 33,
             "hash": "abe80c10c53e940350ee3f9b3387b276",
             "title": {
               "en": "Yomi no Izanami",
@@ -704,8 +737,8 @@
             }
           },
           {
-            "order": 33,
             "difficulty": "ura",
+            "order": 34,
             "hash": "9d3d2c686acdabe24c6c566def1dbad6",
             "title": {
               "en": "Shunyuu ～happy excursion～",
@@ -715,8 +748,8 @@
             }
           },
           {
-            "order": 34,
             "difficulty": "oni",
+            "order": 35,
             "hash": "cee27967121d64839fc2bdfb252c5545",
             "title": {
               "en": "Over Clock ～Kaihou～",
@@ -725,8 +758,8 @@
             }
           },
           {
-            "order": 35,
             "difficulty": "oni",
+            "order": 36,
             "hash": "8e1e69310591e0656a2c147f8e7b7cbd",
             "title": {
               "en": "Genesis Ray",
@@ -735,8 +768,8 @@
             }
           },
           {
-            "order": 36,
             "difficulty": "ura",
+            "order": 37,
             "hash": "da9f2b4cba332f125a0391abde4e64f9",
             "title": {
               "en": "Happy Synthesizer",
@@ -746,8 +779,8 @@
             }
           },
           {
-            "order": 37,
             "difficulty": "oni",
+            "order": 38,
             "hash": "d30e3f688aec9ac6203da5e9b5cd8850",
             "title": {
               "en": "Caramel Time☆",
@@ -757,8 +790,8 @@
             }
           },
           {
-            "order": 38,
             "difficulty": "oni",
+            "order": 39,
             "hash": "0f17a032b3b533f81671555c7284d159",
             "title": {
               "en": "Koi Gensou -Love Fantasy-",
@@ -768,8 +801,8 @@
             }
           },
           {
-            "order": 39,
             "difficulty": "oni",
+            "order": 40,
             "hash": "eaa59561d9110fc566a8b5ec476799f7",
             "title": {
               "en": "M.S.S. Planet",
@@ -778,8 +811,8 @@
             }
           },
           {
-            "order": 40,
             "difficulty": "oni",
+            "order": 41,
             "hash": "da2fa7700722312fcc9d0f2b918c400e",
             "title": {
               "en": "Kathiawar no Cutlass",
@@ -789,8 +822,8 @@
             }
           },
           {
-            "order": 41,
             "difficulty": "oni",
+            "order": 42,
             "hash": "2ec543e1cb5abb685c41ceb43f95855b",
             "title": {
               "en": "Hoshikuzu to Linear to Boku",
@@ -800,8 +833,8 @@
             }
           },
           {
-            "order": 42,
             "difficulty": "ura",
+            "order": 43,
             "hash": "ed6f07c0039c9b8b8adf638a46a081b1",
             "title": {
               "en": "Chouren ～Obsession～",
@@ -811,8 +844,8 @@
             }
           },
           {
-            "order": 43,
             "difficulty": "oni",
+            "order": 44,
             "hash": "031f98327b8bc418f906f20313e94917",
             "title": {
               "en": "Eringi no Ekubo",
@@ -822,8 +855,8 @@
             }
           },
           {
-            "order": 44,
             "difficulty": "oni",
+            "order": 45,
             "hash": "a27bd157afcd2fa8ceca2077dd95911c",
             "title": {
               "en": "D-Zettai! SAMURAI in the Rain",
@@ -832,8 +865,8 @@
             }
           },
           {
-            "order": 45,
             "difficulty": "oni",
+            "order": 46,
             "hash": "2a85fd091998a64f4cfed07b1781cba8",
             "title": {
               "en": "Todoroke! Taiko no Tatsujin",
@@ -843,19 +876,18 @@
             }
           },
           {
-            "order": 46,
-            "difficulty": "oni",
-            "hash": "19a97794e898594d1ba00d385e1a5a0b",
-            "title": {
-              "en": "Famires Wars",
-              "ja": "ファミレスウォーズ",
-              "ko": "Families wars",
-              "zh": "FAMIRES WARS"
-            }
-          },
-          {
+            "difficulty": "ura",
             "order": 47,
+            "hash": "b6c3c673c154a647ecf4820f4b56171c",
+            "title": {
+              "en": "Idol Life Starter Pack",
+              "ja": "アイドルライフスターターパック",
+              "zh_tw": "Idol Life Starter Pack"
+            }
+          },
+          {
             "difficulty": "oni",
+            "order": 48,
             "hash": "19a97794e898594d1ba00d385e1a5a0b",
             "title": {
               "en": "Famires Wars",
@@ -865,8 +897,19 @@
             }
           },
           {
-            "order": 48,
             "difficulty": "oni",
+            "order": 49,
+            "hash": "19a97794e898594d1ba00d385e1a5a0b",
+            "title": {
+              "en": "Famires Wars",
+              "ja": "ファミレスウォーズ",
+              "ko": "Families wars",
+              "zh": "FAMIRES WARS"
+            }
+          },
+          {
+            "difficulty": "oni",
+            "order": 50,
             "hash": "afb4a4012876afadfdb90e566bc7b240",
             "title": {
               "en": "The Windmill Song",
@@ -875,8 +918,8 @@
             }
           },
           {
-            "order": 49,
             "difficulty": "oni",
+            "order": 51,
             "hash": "611c0d0c962a382e453778353a5a74e3",
             "title": {
               "en": "Seishun Complex",
@@ -885,8 +928,8 @@
             }
           },
           {
-            "order": 50,
             "difficulty": "ura",
+            "order": 52,
             "hash": "50e2177e0715b5c5f613edfbb5deb589",
             "title": {
               "en": "Unpi Friends",
@@ -896,8 +939,8 @@
             }
           },
           {
-            "order": 51,
             "difficulty": "oni",
+            "order": 53,
             "hash": "13dd0c45ff9ac30a73fa6c4277a9400b",
             "title": {
               "en": "Kutsunoko wo Utsu",
@@ -906,17 +949,17 @@
               "zh": "栉比鳞次"
             }
           }
-        ],
-        "color": "#000000",
-        "backgroundColor": "#000000"
+        ]
       },
       {
         "name": "B",
         "order": 2,
+        "color": "#000000",
+        "backgroundColor": "#000000",
         "songs": [
           {
-            "order": 0,
             "difficulty": "oni",
+            "order": 0,
             "hash": "c60bf4dd6a4138422b5daada80e141e4",
             "title": {
               "en": "Classical Medley -Rock Version-",
@@ -926,8 +969,8 @@
             }
           },
           {
-            "order": 1,
             "difficulty": "oni",
+            "order": 1,
             "hash": "631b54dde223d13be24f0d1726b8501c",
             "title": {
               "en": "EAT ‘EM UP!",
@@ -936,8 +979,8 @@
             }
           },
           {
-            "order": 2,
             "difficulty": "oni",
+            "order": 2,
             "hash": "342dc3ee869dfd236d6b95e16cd0ba61",
             "title": {
               "en": "Senkou Valkyria",
@@ -947,8 +990,8 @@
             }
           },
           {
-            "order": 3,
             "difficulty": "oni",
+            "order": 3,
             "hash": "f8c6d8b4cb37aad86355943eaf68ccbe",
             "title": {
               "en": "Xastur no Madousho",
@@ -958,8 +1001,8 @@
             }
           },
           {
-            "order": 4,
             "difficulty": "oni",
+            "order": 4,
             "hash": "b2d2871c698f053657364786e60a418f",
             "title": {
               "en": "Megamina Sekai Ⅲ",
@@ -969,8 +1012,8 @@
             }
           },
           {
-            "order": 5,
             "difficulty": "oni",
+            "order": 5,
             "hash": "62d023bd936e54e81964b5012d8836f4",
             "title": {
               "en": "Nijiiro Baton",
@@ -980,8 +1023,8 @@
             }
           },
           {
-            "order": 6,
             "difficulty": "oni",
+            "order": 6,
             "hash": "403b1ef9d0cec7b160fabb9a0807f5a0",
             "title": {
               "en": "Kyousou Kosai",
@@ -991,8 +1034,17 @@
             }
           },
           {
-            "order": 7,
             "difficulty": "oni",
+            "order": 7,
+            "hash": null,
+            "title": {
+              "ja": "湾岸ミッドナイト マキシマムチューン 6RR PLUS メドレー Vol.2",
+              "ko": "WANGAN MIDNIGHT MAXIMUM TUNE 메들리 Vol.2"
+            }
+          },
+          {
+            "difficulty": "oni",
+            "order": 8,
             "hash": "291a65c0923805b06e37c99379f6e73c",
             "title": {
               "en": "RAGING FIRE",
@@ -1001,8 +1053,8 @@
             }
           },
           {
-            "order": 8,
             "difficulty": "oni",
+            "order": 9,
             "hash": "0b00e1df0526f608e041e1ba9901d496",
             "title": {
               "en": "Kyu-kurarin",
@@ -1012,8 +1064,8 @@
             }
           },
           {
-            "order": 9,
             "difficulty": "oni",
+            "order": 10,
             "hash": "f37214053724b3314a90b824e084bbee",
             "title": {
               "en": "Densha de Densha de OPA! OPA! OPA! -GMT Mashup-",
@@ -1022,8 +1074,8 @@
             }
           },
           {
-            "order": 10,
             "difficulty": "ura",
+            "order": 11,
             "hash": "9c619027c578fcdbbf2b8bf22b993aa4",
             "title": {
               "en": "Haikei, Gakkou ni te...",
@@ -1033,8 +1085,8 @@
             }
           },
           {
-            "order": 11,
             "difficulty": "oni",
+            "order": 12,
             "hash": "4d544106a90c4a208d12a46f37ee7916",
             "title": {
               "en": "MATSURI D/A",
@@ -1044,8 +1096,8 @@
             }
           },
           {
-            "order": 12,
             "difficulty": "ura",
+            "order": 13,
             "hash": "25499773f8cbad1130cb29a2b1bfab94",
             "title": {
               "en": "Mezase Pokémon Master -20th Anniversary-",
@@ -1055,8 +1107,8 @@
             }
           },
           {
-            "order": 13,
             "difficulty": "oni",
+            "order": 14,
             "hash": "1042732358eafb69bc0603225582dcd3",
             "title": {
               "en": "Megamina Sekai Ⅱ",
@@ -1066,8 +1118,19 @@
             }
           },
           {
-            "order": 14,
             "difficulty": "oni",
+            "order": 15,
+            "hash": "f1f7097465e9bab37404f734f549c36c",
+            "title": {
+              "en": "Sweet Sweet Magic",
+              "ja": "Sweet Sweet Magic",
+              "ko": "Sweet Sweet Magic",
+              "zh": "Sweet Sweet Magic"
+            }
+          },
+          {
+            "difficulty": "oni",
+            "order": 16,
             "hash": "23d35d4c5ad8c6bd6c8b8d31ac97051d",
             "title": {
               "en": "Dragon of Winter ～Toryu～",
@@ -1077,8 +1140,8 @@
             }
           },
           {
-            "order": 15,
             "difficulty": "oni",
+            "order": 17,
             "hash": "c7b67d098d685e4816cef1f51d6d3cec",
             "title": {
               "en": "Canadea",
@@ -1088,8 +1151,8 @@
             }
           },
           {
-            "order": 16,
             "difficulty": "oni",
+            "order": 18,
             "hash": "24ed8fce00a3a2b6ca7ce223cee94a17",
             "title": {
               "en": "Utsukushiku Isogashiki Danube",
@@ -1099,8 +1162,8 @@
             }
           },
           {
-            "order": 17,
             "difficulty": "oni",
+            "order": 19,
             "hash": "959ccf1fd619da0da0f65525e0235536",
             "title": {
               "en": "Oodain",
@@ -1109,8 +1172,20 @@
             }
           },
           {
-            "order": 18,
             "difficulty": "oni",
+            "order": 20,
+            "hash": "17cd24974b3273b6299e3267119e77fc",
+            "title": {
+              "en": "resume:story",
+              "ja": "resume:story",
+              "ko": "resume:story",
+              "zh": "resume:story",
+              "zh_tw": "resume:story"
+            }
+          },
+          {
+            "difficulty": "oni",
+            "order": 21,
             "hash": "dcccdfa38a61f83fe6bab577ebba2d84",
             "title": {
               "en": "Freeway3234",
@@ -1119,16 +1194,16 @@
             }
           },
           {
-            "order": 19,
             "difficulty": "oni",
+            "order": 22,
             "hash": "3f4522f045e85123a114458032fc814e",
             "title": {
               "ja": "World Keeps Turning"
             }
           },
           {
-            "order": 20,
             "difficulty": "oni",
+            "order": 23,
             "hash": "407ca50036f66d0a15876cff27fa0a95",
             "title": {
               "en": "Choco Chiptune.",
@@ -1137,8 +1212,8 @@
             }
           },
           {
-            "order": 21,
             "difficulty": "oni",
+            "order": 24,
             "hash": "520d2a7bc53f7eb9a963203cfab03af0",
             "title": {
               "en": "Dragon of Summer ～Karyu～",
@@ -1148,8 +1223,8 @@
             }
           },
           {
-            "order": 22,
             "difficulty": "oni",
+            "order": 25,
             "hash": "e53545d82e402e77a569d3c2ba2474e2",
             "title": {
               "en": "Rei Wadaiko",
@@ -1159,8 +1234,8 @@
             }
           },
           {
-            "order": 23,
             "difficulty": "oni",
+            "order": 26,
             "hash": "b33bf54e303db79e143859963bf2ad9a",
             "title": {
               "en": "Kurukuru Kurokkuru",
@@ -1170,8 +1245,8 @@
             }
           },
           {
-            "order": 24,
             "difficulty": "oni",
+            "order": 27,
             "hash": "aeaa34ac90a029037414e3f3a909e845",
             "title": {
               "en": "Le Tombeau de Couperin",
@@ -1181,8 +1256,8 @@
             }
           },
           {
-            "order": 25,
             "difficulty": "oni",
+            "order": 28,
             "hash": "8df3d19a0c6d175bce2fad410918fbda",
             "title": {
               "en": "Help me, ERINNNNNN‼",
@@ -1191,8 +1266,8 @@
             }
           },
           {
-            "order": 26,
             "difficulty": "oni",
+            "order": 29,
             "hash": "746a8e55a7634d9ca6b67f0b8f460b13",
             "title": {
               "en": "Ladystar Wandering",
@@ -1201,8 +1276,8 @@
             }
           },
           {
-            "order": 27,
             "difficulty": "oni",
+            "order": 30,
             "hash": "85adf1699e7c22cecc2cd4cdebfdfea0",
             "title": {
               "en": "Donder Time",
@@ -1211,8 +1286,8 @@
             }
           },
           {
-            "order": 28,
             "difficulty": "oni",
+            "order": 31,
             "hash": "2d1504703cc5a8c812ffc93c428ac6c9",
             "title": {
               "en": "Mao-u",
@@ -1222,8 +1297,8 @@
             }
           },
           {
-            "order": 29,
             "difficulty": "oni",
+            "order": 32,
             "hash": "308a9baf575ba26a3c123130c56d489a",
             "title": {
               "en": "SORA-I Earthrise",
@@ -1233,8 +1308,8 @@
             }
           },
           {
-            "order": 30,
             "difficulty": "oni",
+            "order": 33,
             "hash": "37d0f8bb0e154fccc4dc5a1632f0f87f",
             "title": {
               "en": "Boku wa Synth",
@@ -1244,8 +1319,8 @@
             }
           },
           {
-            "order": 31,
             "difficulty": "oni",
+            "order": 34,
             "hash": "37d0f8bb0e154fccc4dc5a1632f0f87f",
             "title": {
               "en": "Boku wa Synth",
@@ -1255,8 +1330,8 @@
             }
           },
           {
-            "order": 32,
             "difficulty": "oni",
+            "order": 35,
             "hash": "69dc765d73e6952d836fd499b36aa0bb",
             "title": {
               "en": "Takkyuu de Dakkyuu",
@@ -1266,8 +1341,8 @@
             }
           },
           {
-            "order": 33,
             "difficulty": "oni",
+            "order": 36,
             "hash": "5502640af881908b420e42721f376ab9",
             "title": {
               "en": "URBAN FRAGMENTS",
@@ -1276,8 +1351,8 @@
             }
           },
           {
-            "order": 34,
             "difficulty": "oni",
+            "order": 37,
             "hash": "a479882ff076e12d6a679ec4b83bce80",
             "title": {
               "en": "The Legend of Zelda Breath of the Wild Medley",
@@ -1285,8 +1360,8 @@
             }
           },
           {
-            "order": 35,
             "difficulty": "oni",
+            "order": 38,
             "hash": "ff87faef86df9c59f70b11e74271a1f0",
             "title": {
               "ja": "チェリーポップ",
@@ -1295,8 +1370,8 @@
             }
           },
           {
-            "order": 36,
             "difficulty": "oni",
+            "order": 39,
             "hash": "655153aff4a84db78f2de3d437945dc5",
             "title": {
               "en": "Ego Ego Atakushi",
@@ -1306,8 +1381,8 @@
             }
           },
           {
-            "order": 37,
             "difficulty": "oni",
+            "order": 40,
             "hash": "51389d8af83c97bcca29c40795366003",
             "title": {
               "en": "Garyoutensei",
@@ -1317,8 +1392,17 @@
             }
           },
           {
-            "order": 38,
             "difficulty": "oni",
+            "order": 41,
+            "hash": null,
+            "title": {
+              "ja": "湾岸ミッドナイト マキシマムチューン 6RR PLUS メドレー Vol.1",
+              "ko": "WANGAN MIDNIGHT MAXIMUN TUNE 메들리 Vol.1"
+            }
+          },
+          {
+            "difficulty": "oni",
+            "order": 42,
             "hash": "1dab0886d1058102845eacd61afa15d1",
             "title": {
               "en": "Teo",
@@ -1328,8 +1412,8 @@
             }
           },
           {
-            "order": 39,
             "difficulty": "oni",
+            "order": 43,
             "hash": "237f5a950349bcee16e4c7fceca34f52",
             "title": {
               "en": "Kaze no Kuni no Ryuu to Kishi",
@@ -1339,8 +1423,8 @@
             }
           },
           {
-            "order": 40,
             "difficulty": "oni",
+            "order": 44,
             "hash": "12117be1b28b82b3e065b2c23843746d",
             "title": {
               "en": "Chain Chronicle Final Battle Medley",
@@ -1349,8 +1433,8 @@
             }
           },
           {
-            "order": 41,
             "difficulty": "oni",
+            "order": 45,
             "hash": "06be9cdcc70c00dfde1dc75fa26eff59",
             "title": {
               "en": "Retro Mania Rhapsody",
@@ -1359,8 +1443,8 @@
             }
           },
           {
-            "order": 42,
             "difficulty": "oni",
+            "order": 46,
             "hash": "b177c4bd3adee88e156655e16e7293d1",
             "title": {
               "ja": "スパートシンドローマー",
@@ -1369,8 +1453,8 @@
             }
           },
           {
-            "order": 43,
             "difficulty": "oni",
+            "order": 47,
             "hash": "554d266efab759bbd20a41db05e7474e",
             "title": {
               "en": "GO ON YA WAY (feat. Chougakusei)",
@@ -1380,8 +1464,8 @@
             }
           },
           {
-            "order": 44,
             "difficulty": "oni",
+            "order": 48,
             "hash": "df0af004fa44e4cceb771c6dbff26071",
             "title": {
               "en": "Hyakka Ryouran",
@@ -1391,8 +1475,8 @@
             }
           },
           {
-            "order": 45,
             "difficulty": "oni",
+            "order": 49,
             "hash": "d3e9c759ef3def24dd88b5881bfa1368",
             "title": {
               "ja": "ツナガリズム",
@@ -1401,8 +1485,8 @@
             }
           },
           {
-            "order": 46,
             "difficulty": "oni",
+            "order": 50,
             "hash": "84bde3bc6678e9250c033cd3a3e1d69c",
             "title": {
               "en": "Aipai Dance Hall",
@@ -1411,8 +1495,8 @@
             }
           },
           {
-            "order": 47,
             "difficulty": "oni",
+            "order": 51,
             "hash": "7d84ad1c168a447b3c79ba66302252c7",
             "title": {
               "en": "Darling Dance",
@@ -1422,8 +1506,8 @@
             }
           },
           {
-            "order": 48,
             "difficulty": "oni",
+            "order": 52,
             "hash": "d155670cd9bbfb8c02117a0e79e8cf40",
             "title": {
               "en": "super star shooter",
@@ -1432,8 +1516,8 @@
             }
           },
           {
-            "order": 49,
             "difficulty": "oni",
+            "order": 53,
             "hash": "85dad2e1edfb621de64979e7675553cc",
             "title": {
               "en": "Endless Seeker",
@@ -1442,8 +1526,8 @@
             }
           },
           {
-            "order": 50,
             "difficulty": "oni",
+            "order": 54,
             "hash": "7dbc9080814becd1bf8497e27b287f28",
             "title": {
               "en": "The Tower of Druaga Medley",
@@ -1453,8 +1537,8 @@
             }
           },
           {
-            "order": 51,
             "difficulty": "oni",
+            "order": 55,
             "hash": "a026fc5f07e4af15f4dedce40a4595c2",
             "title": {
               "en": "Noushou Sakuretsu Girl",
@@ -1464,8 +1548,8 @@
             }
           },
           {
-            "order": 52,
             "difficulty": "ura",
+            "order": 56,
             "hash": "8b0cb4b33a8829a19720ce43db60a68e",
             "title": {
               "en": "Odoru Ponpokorin -New Audio/Chart-",
@@ -1475,8 +1559,8 @@
             }
           },
           {
-            "order": 53,
             "difficulty": "ura",
+            "order": 57,
             "hash": "7b81cab814838907551a423c94aec489",
             "title": {
               "en": "Lovely-X -AC16 Chart-",
@@ -1486,8 +1570,8 @@
             }
           },
           {
-            "order": 54,
             "difficulty": "oni",
+            "order": 58,
             "hash": "3b7d37f8fc52f41298be8ced7533eba9",
             "title": {
               "en": "Ouka Ranman",
@@ -1497,8 +1581,8 @@
             }
           },
           {
-            "order": 55,
             "difficulty": "oni",
+            "order": 59,
             "hash": "92e3400dccc16f5a8ea6cc706174df1a",
             "title": {
               "en": "Esoragoto",
@@ -1506,8 +1590,8 @@
             }
           },
           {
-            "order": 56,
             "difficulty": "oni",
+            "order": 60,
             "hash": "51389d8af83c97bcca29c40795366003",
             "title": {
               "en": "Garyoutensei",
@@ -1517,8 +1601,8 @@
             }
           },
           {
-            "order": 57,
             "difficulty": "oni",
+            "order": 61,
             "hash": "9fc4523ef164d32d349926e2ba18936c",
             "title": {
               "en": "Zattou, Bokura no Machi",
@@ -1528,8 +1612,8 @@
             }
           },
           {
-            "order": 58,
             "difficulty": "oni",
+            "order": 62,
             "hash": "cf3631ad92641e33ea756c8751f1d564",
             "title": {
               "en": "Guren no Yumiya -Cover Version-",
@@ -1537,8 +1621,8 @@
             }
           },
           {
-            "order": 59,
             "difficulty": "ura",
+            "order": 63,
             "hash": "80609d19c7e9bb32e61bd6e3acbace6d",
             "title": {
               "ja": "虹色・夢色・太鼓色",
@@ -1548,8 +1632,18 @@
             }
           },
           {
-            "order": 60,
             "difficulty": "oni",
+            "order": 64,
+            "hash": "973dbb6919ac339f573fc4aec300421f",
+            "title": {
+              "en": "Tamamono",
+              "ja": "賜物",
+              "zh_tw": "賜物"
+            }
+          },
+          {
+            "difficulty": "oni",
+            "order": 65,
             "hash": "645e3d8b664584733578b07367cc529b",
             "title": {
               "en": "Dream Tide -Yume no Chouryuu-",
@@ -1558,8 +1652,8 @@
             }
           },
           {
-            "order": 61,
             "difficulty": "oni",
+            "order": 66,
             "hash": "a460b17562f51e8e0d6ef51f3d38f1ca",
             "title": {
               "en": "Uchuu SAMURAI",
@@ -1569,8 +1663,8 @@
             }
           },
           {
-            "order": 62,
             "difficulty": "oni",
+            "order": 67,
             "hash": "10919894caa6ecd5ac1a28919f70fa5e",
             "title": {
               "en": "Matsuyoi Night Bug",
@@ -1580,8 +1674,8 @@
             }
           },
           {
-            "order": 63,
             "difficulty": "oni",
+            "order": 68,
             "hash": "2ae6fadb5ca9ed7e3f060858be62bb7e",
             "title": {
               "en": "Kaze no Fantasy",
@@ -1591,8 +1685,8 @@
             }
           },
           {
-            "order": 64,
             "difficulty": "oni",
+            "order": 69,
             "hash": "c69f04ebb174d6b3655cec850cc0bf77",
             "title": {
               "en": "Kurofune Raikou",
@@ -1602,8 +1696,8 @@
             }
           },
           {
-            "order": 65,
             "difficulty": "oni",
+            "order": 70,
             "hash": "15cd0b8451f42128ad38d0bc61164cbe",
             "title": {
               "en": "Kaikai Kitan",
@@ -1613,8 +1707,8 @@
             }
           },
           {
-            "order": 66,
             "difficulty": "oni",
+            "order": 71,
             "hash": "77e536db051e21bf42b04f7a5871ddfd",
             "title": {
               "en": "miracle shooting star",
@@ -1623,8 +1717,8 @@
             }
           },
           {
-            "order": 67,
             "difficulty": "oni",
+            "order": 72,
             "hash": "d1f9b47c22daf6643796fa50ed184699",
             "title": {
               "en": "BORDERLESS",
@@ -1633,8 +1727,8 @@
             }
           },
           {
-            "order": 68,
             "difficulty": "oni",
+            "order": 73,
             "hash": "c57176263b3cf5ddb66c87c969f84d50",
             "title": {
               "en": "Shukufuku",
@@ -1644,8 +1738,8 @@
             }
           },
           {
-            "order": 69,
             "difficulty": "oni",
+            "order": 74,
             "hash": "95103b42918c9b7a5a31673add92a339",
             "title": {
               "en": "Gekkabijin",
@@ -1655,8 +1749,8 @@
             }
           },
           {
-            "order": 70,
             "difficulty": "oni",
+            "order": 75,
             "hash": "8d88f88be0a5313afee5232461962123",
             "title": {
               "en": "Surfside Satie",
@@ -1666,8 +1760,8 @@
             }
           },
           {
-            "order": 71,
             "difficulty": "oni",
+            "order": 76,
             "hash": "7a0b30c0849a82b5ac95a34ec0785692",
             "title": {
               "en": "Cirno’s Perfect Math Class",
@@ -1676,17 +1770,17 @@
               "zh": "琪露诺的完美算术教室"
             }
           }
-        ],
-        "color": "#000000",
-        "backgroundColor": "#000000"
+        ]
       },
       {
         "name": "C",
         "order": 3,
+        "color": "#000000",
+        "backgroundColor": "#000000",
         "songs": [
           {
-            "order": 0,
             "difficulty": "oni",
+            "order": 0,
             "hash": "0c29cd624e1f1ce187fc4e128c11a455",
             "title": {
               "en": "DON’T CUT",
@@ -1695,8 +1789,8 @@
             }
           },
           {
-            "order": 1,
             "difficulty": "oni",
+            "order": 1,
             "hash": "fdecc0c7461478d038836ea60d3bb04d",
             "title": {
               "en": "High Spec NEET",
@@ -1705,8 +1799,8 @@
             }
           },
           {
-            "order": 2,
             "difficulty": "ura",
+            "order": 2,
             "hash": "2dac284fc7c73560143689a70060c4cb",
             "title": {
               "en": "Senbonzakura",
@@ -1716,8 +1810,8 @@
             }
           },
           {
-            "order": 3,
             "difficulty": "oni",
+            "order": 3,
             "hash": "c69f04ebb174d6b3655cec850cc0bf77",
             "title": {
               "en": "Kurofune Raikou",
@@ -1727,8 +1821,8 @@
             }
           },
           {
-            "order": 4,
             "difficulty": "oni",
+            "order": 4,
             "hash": "7ab4c8b2fa82b9aaadfdd3753f520c8c",
             "title": {
               "en": "Abyss of hell",
@@ -1737,8 +1831,8 @@
             }
           },
           {
-            "order": 5,
             "difficulty": "oni",
+            "order": 5,
             "hash": "f892c094046ec84747c741cca5c3e2f7",
             "title": {
               "en": "Scream out! -Tatsujin Edit-",
@@ -1747,8 +1841,8 @@
             }
           },
           {
-            "order": 6,
             "difficulty": "oni",
+            "order": 6,
             "hash": "df0af004fa44e4cceb771c6dbff26071",
             "title": {
               "en": "Hyakka Ryouran",
@@ -1758,8 +1852,8 @@
             }
           },
           {
-            "order": 7,
             "difficulty": "oni",
+            "order": 7,
             "hash": "51389d8af83c97bcca29c40795366003",
             "title": {
               "en": "Garyoutensei",
@@ -1769,8 +1863,8 @@
             }
           },
           {
-            "order": 8,
             "difficulty": "oni",
+            "order": 8,
             "hash": "b5460223de3cfe5d6affcc5c65c5ba8e",
             "title": {
               "en": "Tooriyo",
@@ -1780,8 +1874,8 @@
             }
           },
           {
-            "order": 9,
             "difficulty": "oni",
+            "order": 9,
             "hash": "e71fcf932018a17963cb90dcde2ea372",
             "title": {
               "en": "Reviver",
@@ -1791,8 +1885,8 @@
             }
           },
           {
-            "order": 10,
             "difficulty": "oni",
+            "order": 10,
             "hash": "2cdee977c5f732c51d3cf55fe2ba0e1d",
             "title": {
               "en": "Grave",
@@ -1801,8 +1895,8 @@
             }
           },
           {
-            "order": 11,
             "difficulty": "ura",
+            "order": 11,
             "hash": "6cf3fbd4d5d8b24e754da1963f03f8ec",
             "title": {
               "en": "Inochi ni Kirawarete iru.",
@@ -1812,8 +1906,8 @@
             }
           },
           {
-            "order": 12,
             "difficulty": "oni",
+            "order": 12,
             "hash": "6a7e1a3a2c6fc7a6b9013e2f25c613e9",
             "title": {
               "en": "Tokyo Shandy Rendezvous",
@@ -1823,8 +1917,8 @@
             }
           },
           {
-            "order": 13,
             "difficulty": "oni",
+            "order": 13,
             "hash": "3652e8e2411fafcdb0dc29d1a254e8bb",
             "title": {
               "en": "You don't need a reason to like it!",
@@ -1834,8 +1928,8 @@
             }
           },
           {
-            "order": 14,
             "difficulty": "oni",
+            "order": 14,
             "hash": "83ae2880dbe1a5b062c6fc8565094ea9",
             "title": {
               "en": "Kokihi no Shinzou -SCARLET HEART-",
@@ -1845,8 +1939,8 @@
             }
           },
           {
-            "order": 15,
             "difficulty": "oni",
+            "order": 15,
             "hash": "6dd2b90ecc79f08a0490d9946918cf1f",
             "title": {
               "en": "Zen Zen Zense",
@@ -1856,8 +1950,8 @@
             }
           },
           {
-            "order": 16,
             "difficulty": "oni",
+            "order": 16,
             "hash": "7269879fa5213c7cf29d52b35ff8afc3",
             "title": {
               "en": "Ninjin Nin",
@@ -1867,8 +1961,8 @@
             }
           },
           {
-            "order": 17,
             "difficulty": "oni",
+            "order": 17,
             "hash": "4cf09634d7f9e643a48cdf0ba502294f",
             "title": {
               "en": "Kessen‼",
@@ -1876,8 +1970,8 @@
             }
           },
           {
-            "order": 18,
             "difficulty": "oni",
+            "order": 18,
             "hash": "4e433da2e2101de9077d645b15b7cd30",
             "title": {
               "en": "Moshi-moshi Kamisama",
@@ -1886,8 +1980,8 @@
             }
           },
           {
-            "order": 19,
             "difficulty": "oni",
+            "order": 19,
             "hash": "4f7feda9338c1aaf5b0cff8deb03ff40",
             "title": {
               "en": "Shugaku Travelers",
@@ -1897,8 +1991,8 @@
             }
           },
           {
-            "order": 20,
             "difficulty": "oni",
+            "order": 20,
             "hash": "c17857aadd599167e88a75635159c86d",
             "title": {
               "en": "Never say never",
@@ -1907,8 +2001,8 @@
             }
           },
           {
-            "order": 21,
             "difficulty": "oni",
+            "order": 21,
             "hash": "58910148c5b32b3216ca9b21df9a3da3",
             "title": {
               "en": "Angel Dream -iDOLM@STER Version-",
@@ -1918,8 +2012,8 @@
             }
           },
           {
-            "order": 22,
             "difficulty": "oni",
+            "order": 22,
             "hash": "0990f0556d092d9c82ec3ccceb950c6d",
             "title": {
               "en": "Angel Dream",
@@ -1929,8 +2023,8 @@
             }
           },
           {
-            "order": 23,
             "difficulty": "oni",
+            "order": 23,
             "hash": "58910148c5b32b3216ca9b21df9a3da3",
             "title": {
               "en": "Angel Dream -iDOLM@STER Version-",
@@ -1940,8 +2034,8 @@
             }
           },
           {
-            "order": 24,
             "difficulty": "oni",
+            "order": 24,
             "hash": "7e184bc311af3651ccf09f94e4ad4fa9",
             "title": {
               "en": "Future Lab",
@@ -1951,8 +2045,8 @@
             }
           },
           {
-            "order": 25,
             "difficulty": "oni",
+            "order": 25,
             "hash": "fca6d9b7e2367cc9a903573041ff43e1",
             "title": {
               "en": "Bokura wa Ima no Naka de",
@@ -1961,8 +2055,8 @@
             }
           },
           {
-            "order": 26,
             "difficulty": "oni",
+            "order": 26,
             "hash": "080af6a5a5b5f32c12fec51624eda5ce",
             "title": {
               "en": "Kare Kano Canon",
@@ -1972,8 +2066,8 @@
             }
           },
           {
-            "order": 27,
             "difficulty": "oni",
+            "order": 27,
             "hash": "9e52caa15f93c88d23b22f26c4cae90a",
             "title": {
               "en": "Countdown",
@@ -1983,8 +2077,8 @@
             }
           },
           {
-            "order": 28,
             "difficulty": "oni",
+            "order": 28,
             "hash": "3b7fc5a4ac105b81bfcfd89b4ff4ede6",
             "title": {
               "en": "Akeboshi Rocket",
@@ -1993,8 +2087,8 @@
             }
           },
           {
-            "order": 29,
             "difficulty": "oni",
+            "order": 29,
             "hash": "1ea514f6c32bc773a44f983fee0af6a3",
             "title": {
               "en": "Lisdoonvarna no Tasogare",
@@ -2004,8 +2098,8 @@
             }
           },
           {
-            "order": 30,
             "difficulty": "oni",
+            "order": 30,
             "hash": "236cf1fd43feaa62ace275929bad26d0",
             "title": {
               "en": "Densha de Densha de GO! GO! GO! GC! -GMT Remix-",
@@ -2014,8 +2108,8 @@
             }
           },
           {
-            "order": 31,
             "difficulty": "oni",
+            "order": 31,
             "hash": "ed84381d6b01a4b4d314fabd95349ce5",
             "title": {
               "en": "Burning Force Medley",
@@ -2025,8 +2119,8 @@
             }
           },
           {
-            "order": 32,
             "difficulty": "oni",
+            "order": 32,
             "hash": "81c011900733e968dee764dc41d1493d",
             "title": {
               "en": "Aisowarai",
@@ -2036,8 +2130,8 @@
             }
           },
           {
-            "order": 33,
             "difficulty": "oni",
+            "order": 33,
             "hash": "3777f1518ec5aae10be8aa1470f7667b",
             "title": {
               "en": "Unchained Girl!",
@@ -2047,8 +2141,8 @@
             }
           },
           {
-            "order": 34,
             "difficulty": "ura",
+            "order": 34,
             "hash": "0444e7711b8bbb8ffa08eb06874cca15",
             "title": {
               "en": "Kagami no Kuni no Alice",
@@ -2057,8 +2151,8 @@
             }
           },
           {
-            "order": 35,
             "difficulty": "oni",
+            "order": 35,
             "hash": "01c26400745d2346c7656a05f66711a8",
             "title": {
               "en": "Mahou no Kissaten",
@@ -2068,8 +2162,8 @@
             }
           },
           {
-            "order": 36,
             "difficulty": "ura",
+            "order": 36,
             "hash": "16316bb8e4c72a39c38f3f8ad54bb5ae",
             "title": {
               "en": "Kimi to Hibiku Harmony",
@@ -2079,8 +2173,8 @@
             }
           },
           {
-            "order": 37,
             "difficulty": "oni",
+            "order": 37,
             "hash": "98dd9ab5480123988a212405e98cacea",
             "title": {
               "en": "Fuun Shishi",
@@ -2090,8 +2184,8 @@
             }
           },
           {
-            "order": 38,
             "difficulty": "ura",
+            "order": 38,
             "hash": "b70e24d08249441ac2b4cb162f4aa112",
             "title": {
               "en": "Otome Kaibou",
@@ -2101,8 +2195,8 @@
             }
           },
           {
-            "order": 39,
             "difficulty": "oni",
+            "order": 39,
             "hash": "7e0001bff8577210e9153d7d07217c8b",
             "title": {
               "en": "Igaku",
@@ -2112,8 +2206,8 @@
             }
           },
           {
-            "order": 40,
             "difficulty": "oni",
+            "order": 40,
             "hash": "8697e013b4c75162d7e42e675ebd5c1c",
             "title": {
               "en": "Zero no Symphony",
@@ -2123,8 +2217,8 @@
             }
           },
           {
-            "order": 41,
             "difficulty": "oni",
+            "order": 41,
             "hash": "708c3b8048d24ea982e563ac33ad8791",
             "title": {
               "en": "Negaigoto☆Puzzle",
@@ -2134,8 +2228,8 @@
             }
           },
           {
-            "order": 42,
             "difficulty": "oni",
+            "order": 42,
             "hash": "860683518b9916212965108b3bdc7524",
             "title": {
               "en": "Pastel Dream",
@@ -2145,8 +2239,8 @@
             }
           },
           {
-            "order": 43,
             "difficulty": "oni",
+            "order": 43,
             "hash": "f948774acc59ae5a41e748661c49f491",
             "title": {
               "en": "Scarlet Keisatsu no Ghetto Patrol 24-ji",
@@ -2156,8 +2250,8 @@
             }
           },
           {
-            "order": 44,
             "difficulty": "oni",
+            "order": 44,
             "hash": "15baf823ca2e78a7cd8866f3dfd3f63c",
             "title": {
               "en": "Alborada del Gracioso",
@@ -2167,8 +2261,8 @@
             }
           },
           {
-            "order": 45,
             "difficulty": "oni",
+            "order": 45,
             "hash": "3c04fe2be1bf23b55c63d52a066ba2ff",
             "title": {
               "en": "Connected World",
@@ -2177,8 +2271,8 @@
             }
           },
           {
-            "order": 46,
             "difficulty": "oni",
+            "order": 46,
             "hash": "f6d2bb05e8a5392bed6d77e31224a520",
             "title": {
               "en": "Unite the Force",
@@ -2187,8 +2281,8 @@
             }
           },
           {
-            "order": 47,
             "difficulty": "oni",
+            "order": 47,
             "hash": "548a104005e8b81f839a3408445c22cd",
             "title": {
               "en": "Nanaori -Tenjou-",
@@ -2197,8 +2291,8 @@
             }
           },
           {
-            "order": 48,
             "difficulty": "oni",
+            "order": 48,
             "hash": "2824a1553af1d0148103bc6a2f0eac65",
             "title": {
               "en": "Metameta☆Universe!",
@@ -2208,8 +2302,8 @@
             }
           },
           {
-            "order": 49,
             "difficulty": "oni",
+            "order": 49,
             "hash": "1fad5e03a4a71576189efd7c51fa8b46",
             "title": {
               "en": "Otonoke",
@@ -2219,8 +2313,8 @@
             }
           },
           {
-            "order": 50,
             "difficulty": "oni",
+            "order": 50,
             "hash": "430bb85d7ce7ef04422ccedfbff2b5db",
             "title": {
               "en": "KAGEKIYO -New Chart-",
@@ -2229,8 +2323,8 @@
             }
           },
           {
-            "order": 51,
             "difficulty": "oni",
+            "order": 51,
             "hash": "e1c69b62627dd620ca3f19b41ed6023c",
             "title": {
               "en": "Hold me tight",
@@ -2239,8 +2333,8 @@
             }
           },
           {
-            "order": 52,
             "difficulty": "oni",
+            "order": 52,
             "hash": "61e3c8d4fc304162cd75b21ea3250b00",
             "title": {
               "en": "Kirby’s Dream Land Medley",
@@ -2250,8 +2344,8 @@
             }
           },
           {
-            "order": 53,
             "difficulty": "oni",
+            "order": 53,
             "hash": "98dd9ab5480123988a212405e98cacea",
             "title": {
               "en": "Fuun Shishi",
@@ -2261,8 +2355,8 @@
             }
           },
           {
-            "order": 54,
             "difficulty": "oni",
+            "order": 54,
             "hash": "c12bc22303f8982f0f188ea7ed97562b",
             "title": {
               "en": "Hello! Halloween",
@@ -2272,8 +2366,8 @@
             }
           },
           {
-            "order": 55,
             "difficulty": "ura",
+            "order": 55,
             "hash": "7b799af9599a91a753b281bd86f177c4",
             "title": {
               "en": "A Cruel Angel's Thesis -New Audio-",
@@ -2283,8 +2377,8 @@
             }
           },
           {
-            "order": 56,
             "difficulty": "ura",
+            "order": 56,
             "hash": "3fd1eeea35fd5179911e1eee0737a980",
             "title": {
               "en": "Dramaturgy",
@@ -2294,8 +2388,8 @@
             }
           },
           {
-            "order": 57,
             "difficulty": "oni",
+            "order": 57,
             "hash": "3f8e452126a74c053add8c439ce4251d",
             "title": {
               "en": "Mugen no Sora",
@@ -2305,8 +2399,8 @@
             }
           },
           {
-            "order": 58,
             "difficulty": "oni",
+            "order": 58,
             "hash": "dd396d0ba02836ef090489047f5031d1",
             "title": {
               "en": "Eccentric w",
@@ -2316,8 +2410,8 @@
             }
           },
           {
-            "order": 59,
             "difficulty": "oni",
+            "order": 59,
             "hash": "7534a80ded83e0c733a3c7d7c729d705",
             "title": {
               "en": "Ryuu to Kokuen no Himegimi",
@@ -2327,8 +2421,8 @@
             }
           },
           {
-            "order": 60,
             "difficulty": "oni",
+            "order": 60,
             "hash": "a9c51735eaca49e11ad06b0b2e4c56af",
             "title": {
               "en": "Yumeiro Coaster",
@@ -2338,8 +2432,8 @@
             }
           },
           {
-            "order": 61,
             "difficulty": "oni",
+            "order": 61,
             "hash": "a8efb9a74680bb33f2ad50a29b55182f",
             "title": {
               "en": "Hibike! Taiko no Tatsujin",
@@ -2349,8 +2443,8 @@
             }
           },
           {
-            "order": 62,
             "difficulty": "oni",
+            "order": 62,
             "hash": "47b8dd2ffe1350fe592fcab42de3973a",
             "title": {
               "en": "The arrow was shot",
@@ -2360,8 +2454,8 @@
             }
           },
           {
-            "order": 63,
             "difficulty": "oni",
+            "order": 63,
             "hash": "7c9b494fc4929d2112b52fb2c9bc82e8",
             "title": {
               "en": "Ridge Racer",
@@ -2370,8 +2464,8 @@
             }
           },
           {
-            "order": 64,
             "difficulty": "oni",
+            "order": 64,
             "hash": "14f5451d0cd2472caabd48ff06372a83",
             "title": {
               "en": "Lightning Dance",
@@ -2380,8 +2474,8 @@
             }
           },
           {
-            "order": 65,
             "difficulty": "oni",
+            "order": 65,
             "hash": "4506b87a5bc6e6b6e658033b0fddd344",
             "title": {
               "en": "UNBIAS",
@@ -2389,8 +2483,8 @@
             }
           },
           {
-            "order": 66,
             "difficulty": "oni",
+            "order": 66,
             "hash": "0c16daf4bcfaeb80d1a38d722360cc4c",
             "title": {
               "en": "No Way Back",
@@ -2399,8 +2493,8 @@
             }
           },
           {
-            "order": 67,
             "difficulty": "oni",
+            "order": 67,
             "hash": "e07aa13030ae920a42dac6c331be014c",
             "title": {
               "en": "SAMURAI ROCKET",
@@ -2408,8 +2502,17 @@
             }
           },
           {
-            "order": 68,
             "difficulty": "oni",
+            "order": 68,
+            "hash": "459715ddc7d130848210ae5fed88b6c7",
+            "title": {
+              "en": "Honmayade☆Nandeyanen☆Shirankedo",
+              "ja": "ほんまやで☆なんでやねん☆しらんけど"
+            }
+          },
+          {
+            "difficulty": "oni",
+            "order": 69,
             "hash": "c54ec05835d84c5799a21644721b2371",
             "title": {
               "en": "Bokura no Mae ni Michi wa Aru",
@@ -2419,8 +2522,8 @@
             }
           },
           {
-            "order": 69,
             "difficulty": "oni",
+            "order": 70,
             "hash": "734245e8f31ad7be762f10c19a52be5d",
             "title": {
               "en": "Idol Warrior (feat. Hatsune Miku)",
@@ -2429,8 +2532,8 @@
             }
           },
           {
-            "order": 70,
             "difficulty": "oni",
+            "order": 71,
             "hash": "8e6a8f57de4466d4ad670bcffde22d30",
             "title": {
               "en": "Wa Arudo Herite Iji - Jo",
@@ -2440,8 +2543,8 @@
             }
           },
           {
-            "order": 71,
             "difficulty": "oni",
+            "order": 72,
             "hash": "1eb59cccc821ce4df3d74e9de49e78ea",
             "title": {
               "en": "Knuckle Heads ～Ouburoukou～",
@@ -2451,8 +2554,8 @@
             }
           },
           {
-            "order": 72,
             "difficulty": "oni",
+            "order": 73,
             "hash": "37afaa90632c3300de0f174a7e4a1d7e",
             "title": {
               "en": "Carnation",
@@ -2462,8 +2565,8 @@
             }
           },
           {
-            "order": 73,
             "difficulty": "oni",
+            "order": 74,
             "hash": "bcb5897888ebd60881f8f630fec0fa8a",
             "title": {
               "en": "Rumble Ranbu",
@@ -2473,8 +2576,8 @@
             }
           },
           {
-            "order": 74,
             "difficulty": "oni",
+            "order": 75,
             "hash": "5a6a149fde6f960bbc54655b3df55aca",
             "title": {
               "en": "Bling-Bang-Bang-Born",
@@ -2483,8 +2586,8 @@
             }
           },
           {
-            "order": 75,
             "difficulty": "ura",
+            "order": 76,
             "hash": "1bc1589f9e442e49076c97340cc889fe",
             "title": {
               "en": "Tagatame",
@@ -2493,8 +2596,8 @@
             }
           },
           {
-            "order": 76,
             "difficulty": "oni",
+            "order": 77,
             "hash": "1e679a171f1e1704370d59ba6e7b9c76",
             "title": {
               "en": "Koko Doko? Tabun Dokka-tou!",
@@ -2503,17 +2606,17 @@
               "zh": "KOKODOKO? 或许是DOKKA岛呢!"
             }
           }
-        ],
-        "color": "#000000",
-        "backgroundColor": "#000000"
+        ]
       },
       {
         "name": "D",
         "order": 4,
+        "color": "#000000",
+        "backgroundColor": "#000000",
         "songs": [
           {
-            "order": 0,
             "difficulty": "oni",
+            "order": 0,
             "hash": "88c1e05640ec0e6332fb8efd36c41146",
             "title": {
               "en": "NECOLOGY",
@@ -2522,8 +2625,8 @@
             }
           },
           {
-            "order": 1,
             "difficulty": "oni",
+            "order": 1,
             "hash": "1f09b8fc9c777a72da5924bc34f1e433",
             "title": {
               "en": "Good-bye my earth",
@@ -2532,17 +2635,19 @@
             }
           },
           {
-            "order": 2,
             "difficulty": "oni",
-            "hash": "c693dc61629f7e85b895315d3d71262e",
+            "order": 2,
+            "hash": "a8efb9a74680bb33f2ad50a29b55182f",
             "title": {
-              "en": "Hibike! Taiko no Tatsujin -Long Ver-",
-              "ja": "響け！太鼓の達人 -Long Ver-"
+              "en": "Hibike! Taiko no Tatsujin",
+              "ja": "響け！太鼓の達人",
+              "ko": "히비케!태고의 달인",
+              "zh": "响彻云霄！太鼓之达人"
             }
           },
           {
-            "order": 3,
             "difficulty": "oni",
+            "order": 3,
             "hash": "df6dc68c518c341e67c21ed93f5811de",
             "title": {
               "en": "Nagisa no Andromeda",
@@ -2551,8 +2656,8 @@
             }
           },
           {
-            "order": 4,
             "difficulty": "oni",
+            "order": 4,
             "hash": "c002a5dd22c186a9dd4d7f03e0146831",
             "title": {
               "en": "Danba Danba Din Dan",
@@ -2560,8 +2665,8 @@
             }
           },
           {
-            "order": 5,
             "difficulty": "oni",
+            "order": 5,
             "hash": "94be30cf419b310df561367185a547ca",
             "title": {
               "en": "Dun Aonghasa no Fuefuki",
@@ -2571,8 +2676,8 @@
             }
           },
           {
-            "order": 6,
             "difficulty": "oni",
+            "order": 6,
             "hash": "da54175d2ac7fea8fc16eb4c0c58cb53",
             "title": {
               "en": "Ruslan and Lyudmila Overture",
@@ -2582,8 +2687,8 @@
             }
           },
           {
-            "order": 7,
             "difficulty": "oni",
+            "order": 7,
             "hash": "ce4d0ef0ee3d96f6f5680eaa4c4e8b20",
             "title": {
               "en": "Yureru Pleats Jikkouiin",
@@ -2593,8 +2698,19 @@
             }
           },
           {
-            "order": 8,
             "difficulty": "oni",
+            "order": 8,
+            "hash": "b263745987557ce511447dc7cc4ff8c5",
+            "title": {
+              "en": "When Enemies Collapse",
+              "ja": "When Enemies Collapse",
+              "zh": "When Enemies Collapse",
+              "zh_tw": "When Enemies Collapse"
+            }
+          },
+          {
+            "difficulty": "oni",
+            "order": 9,
             "hash": "586f4babef13d8922a6089ff72eb0440",
             "title": {
               "en": "Koi wa Don’t Doubt",
@@ -2604,8 +2720,8 @@
             }
           },
           {
-            "order": 9,
             "difficulty": "oni",
+            "order": 10,
             "hash": "e89cb67a01862a10ad630a2a1edc6c4c",
             "title": {
               "en": "GO ON ～Into the Future～",
@@ -2615,8 +2731,8 @@
             }
           },
           {
-            "order": 10,
             "difficulty": "oni",
+            "order": 11,
             "hash": "8d6f1fe5269987a68ac7f9730761788c",
             "title": {
               "en": "BLUE TOPAZ",
@@ -2625,8 +2741,8 @@
             }
           },
           {
-            "order": 11,
             "difficulty": "oni",
+            "order": 12,
             "hash": "d6d501622c88f9b33c273187c75c07c1",
             "title": {
               "en": "Chain Chronicle Normal Battle Medley",
@@ -2635,8 +2751,8 @@
             }
           },
           {
-            "order": 12,
             "difficulty": "oni",
+            "order": 13,
             "hash": "af6e832d1373a4a0083b569991be210e",
             "title": {
               "ja": "CR詠ZY",
@@ -2645,8 +2761,8 @@
             }
           },
           {
-            "order": 13,
             "difficulty": "oni",
+            "order": 14,
             "hash": "ba5093623e0e6784b057996e12c4f105",
             "title": {
               "en": "Saika",
@@ -2655,8 +2771,8 @@
             }
           },
           {
-            "order": 14,
             "difficulty": "oni",
+            "order": 15,
             "hash": "22fcbab088575460a0b490ad24042465",
             "title": {
               "en": "Radiant",
@@ -2665,8 +2781,8 @@
             }
           },
           {
-            "order": 15,
             "difficulty": "oni",
+            "order": 16,
             "hash": "ad28d532f74dc14c85fd80cecb4e081a",
             "title": {
               "en": "Total Eclipse 2035 ～Shoujo no Jikuu Kaiki-nikushoku～",
@@ -2676,8 +2792,8 @@
             }
           },
           {
-            "order": 16,
             "difficulty": "oni",
+            "order": 17,
             "hash": "cf3584afdbd4c962e77598bd061c7b0f",
             "title": {
               "en": "Jinpuumaru",
@@ -2687,8 +2803,8 @@
             }
           },
           {
-            "order": 17,
             "difficulty": "oni",
+            "order": 18,
             "hash": "5c8f7ffa03fecb285ad58446f8c1b3c7",
             "title": {
               "en": "Amanda",
@@ -2697,8 +2813,8 @@
             }
           },
           {
-            "order": 18,
             "difficulty": "oni",
+            "order": 19,
             "hash": "b7c2682dadbdcbcb1d8fa721f238432c",
             "title": {
               "en": "Oshiete, Kuma Tomo",
@@ -2708,8 +2824,8 @@
             }
           },
           {
-            "order": 19,
             "difficulty": "oni",
+            "order": 20,
             "hash": "26a71eb77b895ab57c643f08663bf04b",
             "title": {
               "en": "shiny smile -Ganaha Hibiki Version-",
@@ -2718,8 +2834,8 @@
             }
           },
           {
-            "order": 20,
             "difficulty": "oni",
+            "order": 21,
             "hash": "2f7db109679bde6a5c72b9aeaec5fd69",
             "title": {
               "en": "Itadaki Babel (Prod. Kenmochi Hidefumi)",
@@ -2729,8 +2845,8 @@
             }
           },
           {
-            "order": 21,
             "difficulty": "oni",
+            "order": 22,
             "hash": "d302cd3ac592c0c60c9892e4c1c32714",
             "title": {
               "en": "Taiko-zamurai -New Audio/Chart-",
@@ -2740,8 +2856,8 @@
             }
           },
           {
-            "order": 22,
             "difficulty": "oni",
+            "order": 23,
             "hash": "03b48fa2e75cd7b4a324c441f52379c1",
             "title": {
               "en": "GORI × GORI × SafaRI",
@@ -2751,8 +2867,8 @@
             }
           },
           {
-            "order": 23,
             "difficulty": "oni",
+            "order": 24,
             "hash": "343a594a090a505e8bad65131dd25070",
             "title": {
               "en": "Assault BGM1",
@@ -2762,8 +2878,8 @@
             }
           },
           {
-            "order": 24,
             "difficulty": "oni",
+            "order": 25,
             "hash": "09d88c1681642c93ac6b65d45ad86c6d",
             "title": {
               "en": "Sakuranbo AC Version",
@@ -2773,8 +2889,8 @@
             }
           },
           {
-            "order": 25,
             "difficulty": "oni",
+            "order": 26,
             "hash": "1af88279e397945dbb9e959332a646a8",
             "title": {
               "en": "Canon -Synchronica Remix-",
@@ -2784,8 +2900,8 @@
             }
           },
           {
-            "order": 26,
             "difficulty": "oni",
+            "order": 27,
             "hash": "2732115fcad70430e3158f91b14e2baa",
             "title": {
               "en": "UMA no Force Train2000ing [180 BPM ver.]",
@@ -2794,8 +2910,8 @@
             }
           },
           {
-            "order": 27,
             "difficulty": "oni",
+            "order": 28,
             "hash": "e1e07e4a963e60c513f5286e71f6e85c",
             "title": {
               "en": "Rurou no Kohaku Hime",
@@ -2805,8 +2921,8 @@
             }
           },
           {
-            "order": 28,
             "difficulty": "oni",
+            "order": 29,
             "hash": "42736e9f573dab542c1ac8e6b40a20fa",
             "title": {
               "en": "Phantom Rider",
@@ -2815,8 +2931,8 @@
             }
           },
           {
-            "order": 29,
             "difficulty": "oni",
+            "order": 30,
             "hash": "45ef177503166955ebe04b0e1e4a9e00",
             "title": {
               "en": "Super Mario Bros. Medley -Old Version-",
@@ -2824,8 +2940,8 @@
             }
           },
           {
-            "order": 30,
             "difficulty": "oni",
+            "order": 31,
             "hash": "83dfa405d9541d75d4ddf59ed3fb6d10",
             "title": {
               "en": "Buru-chan no Oya2",
@@ -2835,8 +2951,8 @@
             }
           },
           {
-            "order": 31,
             "difficulty": "ura",
+            "order": 32,
             "hash": "828cbc8dcf7d353d70e6600a31923072",
             "title": {
               "en": "GOIN’‽",
@@ -2845,19 +2961,8 @@
             }
           },
           {
-            "order": 32,
             "difficulty": "oni",
-            "hash": "19ceb8febda5dc6cd6037f3985a970f6",
-            "title": {
-              "en": "Odo",
-              "ja": "踊",
-              "ko": "Odo",
-              "zh": "踊"
-            }
-          },
-          {
-            "order": 33,
-            "difficulty": "oni",
+            "order": 34,
             "hash": "857dbea82b561cd2918a32145a69f463",
             "title": {
               "en": "Nocturne Op. 9-2",
@@ -2867,8 +2972,8 @@
             }
           },
           {
-            "order": 34,
             "difficulty": "oni",
+            "order": 35,
             "hash": "f33f302185b95930188c94b248393bed",
             "title": {
               "en": "Maji de...⁉",
@@ -2878,8 +2983,8 @@
             }
           },
           {
-            "order": 35,
             "difficulty": "oni",
+            "order": 36,
             "hash": "b123b275307a26474b2405af0556f600",
             "title": {
               "en": "Surges",
@@ -2888,8 +2993,8 @@
             }
           },
           {
-            "order": 36,
             "difficulty": "oni",
+            "order": 37,
             "hash": "dc1c8eca14f21fa68c1e2b6b17113a4e",
             "title": {
               "en": "Houjou Yayoi",
@@ -2899,8 +3004,8 @@
             }
           },
           {
-            "order": 37,
             "difficulty": "oni",
+            "order": 38,
             "hash": "8b2d59996057236722b0da3f39fae8d3",
             "title": {
               "en": "ON SAY GO SAY",
@@ -2909,8 +3014,8 @@
             }
           },
           {
-            "order": 38,
             "difficulty": "oni",
+            "order": 39,
             "hash": "8467745468030b0505a4f6fa0f822b2a",
             "title": {
               "en": "SORA-III Heliopause",
@@ -2920,8 +3025,8 @@
             }
           },
           {
-            "order": 39,
             "difficulty": "oni",
+            "order": 40,
             "hash": "1f642d777ed49d62b148c98090c88a42",
             "title": {
               "en": "SORA-V Cosmic Bird",
@@ -2931,8 +3036,8 @@
             }
           },
           {
-            "order": 40,
             "difficulty": "oni",
+            "order": 41,
             "hash": "55e813b42120578cdfd7788857f72a04",
             "title": {
               "en": "THE iDOLM@STER -New Audio/Chart-",
@@ -2941,16 +3046,16 @@
             }
           },
           {
-            "order": 41,
             "difficulty": "oni",
+            "order": 42,
             "hash": "5ac57b4d7423f7fef116aec09617f9e3",
             "title": {
               "ja": "Re:Play!!"
             }
           },
           {
-            "order": 42,
             "difficulty": "ura",
+            "order": 43,
             "hash": "9c4822b6c1d756fde405b6218fd96f07",
             "title": {
               "en": "Mita-koto mo Nai Keshiki",
@@ -2959,8 +3064,8 @@
             }
           },
           {
-            "order": 43,
             "difficulty": "oni",
+            "order": 44,
             "hash": "b8f79111a94a96cee9b4b51c8233ee1d",
             "title": {
               "en": "KING",
@@ -2969,8 +3074,8 @@
             }
           },
           {
-            "order": 44,
             "difficulty": "oni",
+            "order": 45,
             "hash": "bf5de16939939ec0d98f5e550c4a77da",
             "title": {
               "en": "Chu, Tayousei.",
@@ -2980,8 +3085,8 @@
             }
           },
           {
-            "order": 45,
             "difficulty": "ura",
+            "order": 46,
             "hash": "3c79044c30e8faefa0f03e948f858c3e",
             "title": {
               "en": "Chikuzei ～GEAR UP～",
@@ -2991,8 +3096,8 @@
             }
           },
           {
-            "order": 46,
             "difficulty": "ura",
+            "order": 47,
             "hash": "f877dbc3ea9e89e6cf68902003401e88",
             "title": {
               "en": "Kimi no Akari",
@@ -3002,8 +3107,8 @@
             }
           },
           {
-            "order": 47,
             "difficulty": "oni",
+            "order": 48,
             "hash": "3b7d37f8fc52f41298be8ced7533eba9",
             "title": {
               "en": "Ouka Ranman",
@@ -3013,8 +3118,8 @@
             }
           },
           {
-            "order": 48,
             "difficulty": "oni",
+            "order": 49,
             "hash": "c8ea9e8c3328698ba41acd8b70c26dec",
             "title": {
               "en": "Luka Luka★Night Fever",
@@ -3022,8 +3127,8 @@
             }
           },
           {
-            "order": 49,
             "difficulty": "oni",
+            "order": 50,
             "hash": "4b4db99768f2b53a8d87d1f853adb328",
             "title": {
               "en": "My Soul, Your Beats!",
@@ -3032,8 +3137,8 @@
             }
           },
           {
-            "order": 50,
             "difficulty": "oni",
+            "order": 51,
             "hash": "aa6aef80aa48e5583642b14cd7ba4987",
             "title": {
               "en": "Vampire",
@@ -3043,8 +3148,8 @@
             }
           },
           {
-            "order": 51,
             "difficulty": "oni",
+            "order": 52,
             "hash": "df0af004fa44e4cceb771c6dbff26071",
             "title": {
               "en": "Hyakka Ryouran",
@@ -3054,8 +3159,8 @@
             }
           },
           {
-            "order": 52,
             "difficulty": "oni",
+            "order": 53,
             "hash": "1032d5943fc32bf45dd805d095e06528",
             "title": {
               "en": "GODSONG",
@@ -3065,8 +3170,8 @@
             }
           },
           {
-            "order": 53,
             "difficulty": "oni",
+            "order": 54,
             "hash": "f3697c2a1d16d340c100d7e4a28a79fe",
             "title": {
               "en": "Nanairo Harmony",
@@ -3076,8 +3181,8 @@
             }
           },
           {
-            "order": 54,
             "difficulty": "ura",
+            "order": 55,
             "hash": "4d128f6124c594cac0dfec96ff507b0c",
             "title": {
               "en": "Kikyoku ～Seasons of Asia～",
@@ -3087,8 +3192,8 @@
             }
           },
           {
-            "order": 55,
             "difficulty": "oni",
+            "order": 56,
             "hash": "e18e33ec4a91003bb6a49d4a3a8b0be1",
             "title": {
               "en": "Utakata, Ai no Mahoroba",
@@ -3097,8 +3202,8 @@
             }
           },
           {
-            "order": 56,
             "difficulty": "oni",
+            "order": 57,
             "hash": "86ff09c552bb0dbb01f18d05a183aa4b",
             "title": {
               "en": "Konamono☆",
@@ -3108,8 +3213,8 @@
             }
           },
           {
-            "order": 57,
             "difficulty": "oni",
+            "order": 58,
             "hash": "9b952a9fe920d88d7fabc58bcf2e2653",
             "title": {
               "ja": "汚れなきクソ野郎ども",
@@ -3118,8 +3223,8 @@
             }
           },
           {
-            "order": 58,
             "difficulty": "oni",
+            "order": 59,
             "hash": "c69f04ebb174d6b3655cec850cc0bf77",
             "title": {
               "en": "Kurofune Raikou",
@@ -3129,8 +3234,8 @@
             }
           },
           {
-            "order": 59,
             "difficulty": "oni",
+            "order": 60,
             "hash": "b1ff00046ee8ceaf1e4aab45735b9d06",
             "title": {
               "en": "Hopes and Dreams",
@@ -3140,8 +3245,8 @@
             }
           },
           {
-            "order": 60,
             "difficulty": "oni",
+            "order": 61,
             "hash": "789536b34553e1a56d7db6be9b959061",
             "title": {
               "en": "Gensou ni Saita Hana",
@@ -3151,8 +3256,8 @@
             }
           },
           {
-            "order": 61,
             "difficulty": "oni",
+            "order": 62,
             "hash": "ede8e4445683c122949e143d91da4b89",
             "title": {
               "ja": "クスシキ",
@@ -3161,8 +3266,8 @@
             }
           },
           {
-            "order": 62,
             "difficulty": "ura",
+            "order": 63,
             "hash": "3d14ca35ffc6cf05f64c0d1e600be9b9",
             "title": {
               "en": "Shokou ～Dawn～",
@@ -3172,8 +3277,8 @@
             }
           },
           {
-            "order": 63,
             "difficulty": "oni",
+            "order": 64,
             "hash": "396c2284ec5bdf68836762e8c0a7d539",
             "title": {
               "en": "Dareka no Shinzou ni Nareta Nara",
@@ -3182,8 +3287,8 @@
             }
           },
           {
-            "order": 64,
             "difficulty": "oni",
+            "order": 65,
             "hash": "1c82d4bae1da5feb6b770b39cbea3e82",
             "title": {
               "en": "RAGE ℣ self",
@@ -3192,8 +3297,8 @@
             }
           },
           {
-            "order": 65,
             "difficulty": "oni",
+            "order": 66,
             "hash": "4c1f1380a76d08b8e657326713202955",
             "title": {
               "en": "RNG Cinderella",
@@ -3203,8 +3308,8 @@
             }
           },
           {
-            "order": 66,
             "difficulty": "oni",
+            "order": 67,
             "hash": "81d6b8a7e181cedd9a19a41fbee16e30",
             "title": {
               "en": "Honnouji no Hen",
@@ -3213,8 +3318,8 @@
             }
           },
           {
-            "order": 67,
             "difficulty": "oni",
+            "order": 68,
             "hash": "209948e9c24c13db2c352e33e517aa81",
             "title": {
               "en": "Amefuri no Rondo",
@@ -3224,8 +3329,8 @@
             }
           },
           {
-            "order": 68,
             "difficulty": "oni",
+            "order": 69,
             "hash": "5d864790e7c43ef90371c43a2a4c2115",
             "title": {
               "en": "Genkai Creator Ouenka",
@@ -3235,8 +3340,8 @@
             }
           },
           {
-            "order": 69,
             "difficulty": "oni",
+            "order": 70,
             "hash": "26613aeb8c77b3f058e7a5b1e6caa3c1",
             "title": {
               "en": "RAINMAKER",
@@ -3245,8 +3350,8 @@
             }
           },
           {
-            "order": 70,
             "difficulty": "oni",
+            "order": 71,
             "hash": "e11d05f38d2d9c07e7172b6ccdb039d3",
             "title": {
               "en": "Venom (feat.flower)",
@@ -3256,8 +3361,8 @@
             }
           },
           {
-            "order": 71,
             "difficulty": "oni",
+            "order": 72,
             "hash": "bcda1333bce97f626a05fc4d88d0188a",
             "title": {
               "en": "Hibana",
@@ -3266,8 +3371,8 @@
             }
           },
           {
-            "order": 72,
             "difficulty": "oni",
+            "order": 73,
             "hash": "71af3c96d308a556dd1d7768f19589d6",
             "title": {
               "en": "Battle -Denkousekka-",
@@ -3276,8 +3381,8 @@
             }
           },
           {
-            "order": 73,
             "difficulty": "oni",
+            "order": 74,
             "hash": "7762c0f68ce69e2b4d09cc331b46866f",
             "title": {
               "en": "Lilac",
@@ -3287,8 +3392,8 @@
             }
           },
           {
-            "order": 74,
             "difficulty": "oni",
+            "order": 75,
             "hash": "423c3b2fe68fdc6694b36e0000ba4c18",
             "title": {
               "en": "Nameless Story",
@@ -3297,8 +3402,8 @@
             }
           },
           {
-            "order": 75,
             "difficulty": "oni",
+            "order": 76,
             "hash": "f7c56f3cd4844dfee1812cd5b67e74dd",
             "title": {
               "en": "Cotton Candy Ei-Ei-Oh!",
@@ -3308,8 +3413,8 @@
             }
           },
           {
-            "order": 76,
             "difficulty": "oni",
+            "order": 77,
             "hash": "8d7555fc0e08c34c5f7be9671f7b2997",
             "title": {
               "en": "Monitoring",
@@ -3317,17 +3422,17 @@
               "ko": "Monitoring"
             }
           }
-        ],
-        "color": "#000000",
-        "backgroundColor": "#000000"
+        ]
       },
       {
         "name": "E",
         "order": 5,
+        "color": "#000000",
+        "backgroundColor": "#000000",
         "songs": [
           {
-            "order": 0,
             "difficulty": "oni",
+            "order": 0,
             "hash": "31f08ee7206bfa67e68cf666ef128ec8",
             "title": {
               "en": "Ii Aru Fanclub",
@@ -3337,8 +3442,8 @@
             }
           },
           {
-            "order": 1,
             "difficulty": "oni",
+            "order": 1,
             "hash": "cc7604679f0459f2268dbe8c4a4d2895",
             "title": {
               "en": "Raiko Taiko Disco",
@@ -3348,8 +3453,8 @@
             }
           },
           {
-            "order": 2,
             "difficulty": "oni",
+            "order": 2,
             "hash": "0a58ed436324b91024b1b4391f714362",
             "title": {
               "en": "GOING TO LUNATEA",
@@ -3358,8 +3463,8 @@
             }
           },
           {
-            "order": 3,
             "difficulty": "oni",
+            "order": 3,
             "hash": "3725b1980befde70d894de65f7522570",
             "title": {
               "en": "NEW KAWAII",
@@ -3368,8 +3473,8 @@
             }
           },
           {
-            "order": 4,
             "difficulty": "oni",
+            "order": 4,
             "hash": "8f1cdf056530055c4b4161c52df72052",
             "title": {
               "en": "Houkago☆Magician",
@@ -3379,8 +3484,8 @@
             }
           },
           {
-            "order": 5,
             "difficulty": "oni",
+            "order": 5,
             "hash": "a4a84881f691a50580b9764d0c3e4e9c",
             "title": {
               "en": "Sugar Song to Bitter Step",
@@ -3390,8 +3495,8 @@
             }
           },
           {
-            "order": 6,
             "difficulty": "oni",
+            "order": 6,
             "hash": "b2bdcb70a35f5278ad45d1a07fcf6e13",
             "title": {
               "en": "Break Line",
@@ -3401,8 +3506,8 @@
             }
           },
           {
-            "order": 7,
             "difficulty": "oni",
+            "order": 7,
             "hash": "edd1be434f5e25257609eb826cc48f93",
             "title": {
               "en": "Bad Apple‼",
@@ -3411,8 +3516,8 @@
             }
           },
           {
-            "order": 8,
             "difficulty": "oni",
+            "order": 8,
             "hash": "58d38c19abcb806283b1a03228048cc6",
             "title": {
               "en": "Boku no Sensou",
@@ -3422,19 +3527,8 @@
             }
           },
           {
-            "order": 9,
             "difficulty": "oni",
-            "hash": "dfa6a6a8098e76ff9e803090b4682a32",
-            "title": {
-              "en": "Byoushinwo Kamu",
-              "ja": "秒針を噛む",
-              "ko": "Byoushinwo Kamu",
-              "zh": "Byoushinwo Kamu"
-            }
-          },
-          {
             "order": 10,
-            "difficulty": "oni",
             "hash": "25742e5981637349090c1807e0c6eaa5",
             "title": {
               "en": "Kagayaki o Motomete",
@@ -3444,8 +3538,8 @@
             }
           },
           {
-            "order": 11,
             "difficulty": "oni",
+            "order": 11,
             "hash": "29700dd8309641117fdbeb8a3ff188ed",
             "title": {
               "en": "Charles",
@@ -3455,8 +3549,8 @@
             }
           },
           {
-            "order": 12,
             "difficulty": "oni",
+            "order": 12,
             "hash": "268100afa2c96afccebb3164feb1a752",
             "title": {
               "ja": "バグ",
@@ -3465,8 +3559,8 @@
             }
           },
           {
-            "order": 13,
             "difficulty": "oni",
+            "order": 13,
             "hash": "68722e7d884b0ea8a846cbd3502b2980",
             "title": {
               "en": "Ninja Re Bang Bang",
@@ -3476,8 +3570,8 @@
             }
           },
           {
-            "order": 14,
             "difficulty": "oni",
+            "order": 14,
             "hash": "f6751ac7feb2596df2f726a9aaebe235",
             "title": {
               "en": "Taiko Ranbu Kaiden",
@@ -3487,19 +3581,8 @@
             }
           },
           {
-            "order": 15,
-            "difficulty": "oni",
-            "hash": "c71086802c3af6da139d91f849041e3e",
-            "title": {
-              "en": "Yoru ni Kakeru",
-              "ja": "夜に駆ける",
-              "ko": "Yoru ni kakeru",
-              "zh": "向夜晚奔去"
-            }
-          },
-          {
-            "order": 16,
             "difficulty": "ura",
+            "order": 16,
             "hash": "92625f865c13223bffa367bf0be03253",
             "title": {
               "en": "Tanhou ～Blooming～",
@@ -3509,8 +3592,8 @@
             }
           },
           {
-            "order": 17,
             "difficulty": "oni",
+            "order": 17,
             "hash": "1a5721df157509b70d42310ee243e2c8",
             "title": {
               "en": "AV-A-MI",
@@ -3519,8 +3602,8 @@
             }
           },
           {
-            "order": 18,
             "difficulty": "ura",
+            "order": 18,
             "hash": "f1cb47b598b51079108c90bff1081488",
             "title": {
               "en": "Kissa Rain",
@@ -3530,8 +3613,8 @@
             }
           },
           {
-            "order": 19,
             "difficulty": "oni",
+            "order": 19,
             "hash": "94dc986780d0bb28bbf18d85b37bae93",
             "title": {
               "en": "Dragon Night",
@@ -3540,8 +3623,8 @@
             }
           },
           {
-            "order": 20,
             "difficulty": "oni",
+            "order": 20,
             "hash": "c660a7c8d6370392ed8517e6616c5ebe",
             "title": {
               "en": "Drawin’☆Dream!",
@@ -3551,8 +3634,8 @@
             }
           },
           {
-            "order": 21,
             "difficulty": "oni",
+            "order": 21,
             "hash": "a94d703b8d90cb34518a21cdd2212f68",
             "title": {
               "en": "Tatakae! T3 Boueitai ～GDI Mix～",
@@ -3561,8 +3644,8 @@
             }
           },
           {
-            "order": 22,
             "difficulty": "oni",
+            "order": 22,
             "hash": "52b921898e649aebbb9aa7ac70b3033f",
             "title": {
               "en": "Love You☆Don-chan -New Chart-",
@@ -3572,8 +3655,8 @@
             }
           },
           {
-            "order": 23,
             "difficulty": "ura",
+            "order": 23,
             "hash": "abe559deb7525d31a8e5f1c8699328e9",
             "title": {
               "en": "Pavane for a Dead Princess ～Kimi no Kodou～",
@@ -3583,8 +3666,8 @@
             }
           },
           {
-            "order": 24,
             "difficulty": "oni",
+            "order": 24,
             "hash": "d29c0145d4c3756740bb08be0be02937",
             "title": {
               "en": "Kusou Daha",
@@ -3594,8 +3677,8 @@
             }
           },
           {
-            "order": 25,
             "difficulty": "oni",
+            "order": 25,
             "hash": "364e23f8f54c4e3fb8de9f517987fc69",
             "title": {
               "en": "Ka.Ma.Se",
@@ -3603,8 +3686,8 @@
             }
           },
           {
-            "order": 26,
             "difficulty": "oni",
+            "order": 26,
             "hash": "6334cd2de5005776adfe56c8245d7df3",
             "title": {
               "en": "Day by Day!",
@@ -3613,8 +3696,8 @@
             }
           },
           {
-            "order": 27,
             "difficulty": "oni",
+            "order": 27,
             "hash": "56c8319b3cf4ec094ecd72d0064bba1e",
             "title": {
               "en": "Favorite Days",
@@ -3623,8 +3706,8 @@
             }
           },
           {
-            "order": 28,
             "difficulty": "oni",
+            "order": 28,
             "hash": "c440b6d3fc29f0de3f29012786fb791a",
             "title": {
               "en": "Neko Kujira -New Chart-",
@@ -3634,8 +3717,8 @@
             }
           },
           {
-            "order": 29,
             "difficulty": "oni",
+            "order": 29,
             "hash": "a7f96d4723d438982c2ea621fb7e8e9e",
             "title": {
               "en": "Doppelgängers",
@@ -3644,8 +3727,8 @@
             }
           },
           {
-            "order": 30,
             "difficulty": "oni",
+            "order": 30,
             "hash": "d2b824c8acdf8c41b3f161725d057ad2",
             "title": {
               "en": "Kakenukete-yuku",
@@ -3654,8 +3737,8 @@
             }
           },
           {
-            "order": 31,
             "difficulty": "oni",
+            "order": 31,
             "hash": "b9337bc9d1900a9979f6821d62714141",
             "title": {
               "en": "Chrimbo!",
@@ -3665,8 +3748,8 @@
             }
           },
           {
-            "order": 32,
             "difficulty": "oni",
+            "order": 32,
             "hash": "53afaea09890b48950db37cf505ba79b",
             "title": {
               "en": "Monster Hunter 4 Medley",
@@ -3675,8 +3758,8 @@
             }
           },
           {
-            "order": 33,
             "difficulty": "oni",
+            "order": 33,
             "hash": "b90d6db199fc9937eae88653e1e53d25",
             "title": {
               "en": "Tabetemo Tabetemo",
@@ -3686,8 +3769,8 @@
             }
           },
           {
-            "order": 34,
             "difficulty": "oni",
+            "order": 34,
             "hash": "9a716b50089588e7d9021fc3d4f834c7",
             "title": {
               "en": "Tsukikage SASURAI",
@@ -3697,8 +3780,8 @@
             }
           },
           {
-            "order": 35,
             "difficulty": "oni",
+            "order": 35,
             "hash": "ec082e62eaa6c12d36ef778fab6372de",
             "title": {
               "en": "Iro wa Nioedo Chirinuru o",
@@ -3708,8 +3791,8 @@
             }
           },
           {
-            "order": 36,
             "difficulty": "oni",
+            "order": 36,
             "hash": "bf1ac114b88fa78858bc4611392ad1f0",
             "title": {
               "en": "sekai note",
@@ -3718,8 +3801,8 @@
             }
           },
           {
-            "order": 37,
             "difficulty": "oni",
+            "order": 37,
             "hash": "e716b65fec0af4cf4c4fe151f09d3f6d",
             "title": {
               "en": "Hikaru Yami",
@@ -3728,8 +3811,8 @@
             }
           },
           {
-            "order": 38,
             "difficulty": "oni",
+            "order": 38,
             "hash": "0c6171aaab188a6c9c9cf65d005c0e49",
             "title": {
               "en": "La Morena Kumonai",
@@ -3739,8 +3822,8 @@
             }
           },
           {
-            "order": 39,
             "difficulty": "oni",
+            "order": 39,
             "hash": "8c42de816a2d98ef4056f152a94ae89c",
             "title": {
               "en": "Thank You!",
@@ -3749,8 +3832,8 @@
             }
           },
           {
-            "order": 40,
             "difficulty": "oni",
+            "order": 40,
             "hash": "472fc0cfa570e9e1de8de3a850d87ea6",
             "title": {
               "en": "Donderful Everyday",
@@ -3760,8 +3843,8 @@
             }
           },
           {
-            "order": 41,
             "difficulty": "oni",
+            "order": 41,
             "hash": "7e8b98ee1ac262e93309a04c4c084def",
             "title": {
               "en": "Daibouken Tatsudon",
@@ -3771,8 +3854,8 @@
             }
           },
           {
-            "order": 42,
             "difficulty": "ura",
+            "order": 42,
             "hash": "cbc2b4e7bac4bd4ee31e2fb34e521f63",
             "title": {
               "en": "Love You☆Don-chan -New Chart-",
@@ -3782,8 +3865,8 @@
             }
           },
           {
-            "order": 43,
             "difficulty": "oni",
+            "order": 43,
             "hash": "2d320b300a47ad271392ec463caadecc",
             "title": {
               "en": "SMOKY THRILL -AC16 Chart-",
@@ -3792,8 +3875,8 @@
             }
           },
           {
-            "order": 44,
             "difficulty": "oni",
+            "order": 44,
             "hash": "50522a9dd610573bbd15d46d49a3d9d3",
             "title": {
               "en": "‘O Sole Mio",
@@ -3803,8 +3886,8 @@
             }
           },
           {
-            "order": 45,
             "difficulty": "oni",
+            "order": 45,
             "hash": "325979641d1bafcfc3e1e9f857e6d063",
             "title": {
               "en": "Altale",
@@ -3812,8 +3895,8 @@
             }
           },
           {
-            "order": 46,
             "difficulty": "oni",
+            "order": 46,
             "hash": "08cd7edbcfec33367dbcf47394a95769",
             "title": {
               "en": "SORA-IV Bunpasong",
@@ -3823,8 +3906,8 @@
             }
           },
           {
-            "order": 47,
             "difficulty": "oni",
+            "order": 47,
             "hash": "eb5f8c8c46d1fa921789a786760b1ff4",
             "title": {
               "en": "Synchronicity",
@@ -3833,8 +3916,8 @@
             }
           },
           {
-            "order": 48,
             "difficulty": "oni",
+            "order": 48,
             "hash": "202a4f2f27ea3e5daf64608d242bebf8",
             "title": {
               "en": "Neko",
@@ -3844,8 +3927,8 @@
             }
           },
           {
-            "order": 49,
             "difficulty": "oni",
+            "order": 49,
             "hash": "12e6369cc63792ef49967880f3868ec1",
             "title": {
               "en": "Shanimuni Hanabi",
@@ -3853,8 +3936,8 @@
             }
           },
           {
-            "order": 50,
             "difficulty": "oni",
+            "order": 50,
             "hash": "2618bcedf6e2d1f73efb95701d2b6eee",
             "title": {
               "en": "Hakujitsu",
@@ -3864,8 +3947,8 @@
             }
           },
           {
-            "order": 51,
             "difficulty": "oni",
+            "order": 51,
             "hash": "1ff8c7a5f6cc5bb356307118a5ce2a3b",
             "title": {
               "en": "Yoidore Shirazu",
@@ -3875,8 +3958,8 @@
             }
           },
           {
-            "order": 52,
             "difficulty": "oni",
+            "order": 52,
             "hash": "f27b6d16e4684a4e689f20ffa0c72a4a",
             "title": {
               "en": "Ai MUST GO!",
@@ -3885,8 +3968,8 @@
             }
           },
           {
-            "order": 53,
             "difficulty": "oni",
+            "order": 53,
             "hash": "71b806271cfbad1a86a83e471b114b5a",
             "title": {
               "en": "Usseewa",
@@ -3896,8 +3979,8 @@
             }
           },
           {
-            "order": 54,
             "difficulty": "oni",
+            "order": 54,
             "hash": "92e33e9aead255cbcde6ab4638c8aa57",
             "title": {
               "en": "PaPaPa Love ～Muscle Joy Theme～",
@@ -3906,8 +3989,8 @@
             }
           },
           {
-            "order": 55,
             "difficulty": "ura",
+            "order": 55,
             "hash": "914c3c86b9303332a54ce5205ab77159",
             "title": {
               "en": "Gurenge",
@@ -3917,8 +4000,8 @@
             }
           },
           {
-            "order": 56,
             "difficulty": "oni",
+            "order": 56,
             "hash": "07bc46f7fb980f2e803c0f75ba8fa2cb",
             "title": {
               "en": "RESTART",
@@ -3927,8 +4010,8 @@
             }
           },
           {
-            "order": 57,
             "difficulty": "ura",
+            "order": 57,
             "hash": "04b1e8fa0931e7e2e127ab5e7221f29a",
             "title": {
               "en": "Zeihen ～transformation～",
@@ -3938,8 +4021,8 @@
             }
           },
           {
-            "order": 58,
             "difficulty": "oni",
+            "order": 58,
             "hash": "d68618a9da266abfcd49bbde65d9ceca",
             "title": {
               "en": "RHYTHM CONNECT",
@@ -3948,8 +4031,8 @@
             }
           },
           {
-            "order": 59,
             "difficulty": "oni",
+            "order": 59,
             "hash": "be2d0eac3614e4bbc33407ce03c6d64d",
             "title": {
               "en": "Zero no Nocturne",
@@ -3959,8 +4042,8 @@
             }
           },
           {
-            "order": 60,
             "difficulty": "oni",
+            "order": 60,
             "hash": "69e84d27709104307e24b8efe29954b8",
             "title": {
               "en": "Ko-ki-ku-kuru-kuru-kure-ko!",
@@ -3970,8 +4053,8 @@
             }
           },
           {
-            "order": 61,
             "difficulty": "oni",
+            "order": 61,
             "hash": "8635dab0d144d5c96ac61ccb24f31b09",
             "title": {
               "en": "Taiyoukei Disco",
@@ -3981,8 +4064,8 @@
             }
           },
           {
-            "order": 62,
             "difficulty": "oni",
+            "order": 62,
             "hash": "ba1bb36880db5ddff38c847ffb8f264a",
             "title": {
               "en": "Memeshikute",
@@ -3992,8 +4075,8 @@
             }
           },
           {
-            "order": 63,
             "difficulty": "oni",
+            "order": 63,
             "hash": "6fde3fe906729ab145c1ca70fa2e5893",
             "title": {
               "en": "Ao no Sumika",
@@ -4003,8 +4086,8 @@
             }
           },
           {
-            "order": 64,
             "difficulty": "oni",
+            "order": 64,
             "hash": "56a56fc3a23e8b7b030b0b23696b2428",
             "title": {
               "en": "Tsuki ni Murakumo Hana ni Kaze",
@@ -4014,8 +4097,8 @@
             }
           },
           {
-            "order": 65,
             "difficulty": "oni",
+            "order": 65,
             "hash": "a382345515879ccde5bc4a42078c1cee",
             "title": {
               "en": "Mani Mani(Prod.TAKU INOUE)",
@@ -4024,8 +4107,8 @@
             }
           },
           {
-            "order": 66,
             "difficulty": "oni",
+            "order": 66,
             "hash": "b252433bcf0499f43ac3e2fe3a8184f9",
             "title": {
               "en": "Shukusei!! Loli-gami Requiem☆",
@@ -4034,8 +4117,8 @@
             }
           },
           {
-            "order": 67,
             "difficulty": "oni",
+            "order": 67,
             "hash": "9b6de49a49ef6e79a60262486560835f",
             "title": {
               "en": "An American in Paris",
@@ -4045,8 +4128,8 @@
             }
           },
           {
-            "order": 68,
             "difficulty": "oni",
+            "order": 68,
             "hash": "71ca6a9a907be043d9ccb5e77ef61db2",
             "title": {
               "en": "Yumeutsutsu Catharsis",
@@ -4056,8 +4139,8 @@
             }
           },
           {
-            "order": 69,
             "difficulty": "oni",
+            "order": 69,
             "hash": "bb910d58c920dc738d2b37a5f563f282",
             "title": {
               "en": "Mezase Pokémon Master -20th Anniversary-",
@@ -4067,8 +4150,8 @@
             }
           },
           {
-            "order": 70,
             "difficulty": "oni",
+            "order": 70,
             "hash": "34519be57f2e10eb3d8004e44fa4a04b",
             "title": {
               "en": "Jump Up, Super Star! -Short Version-",
@@ -4076,8 +4159,8 @@
             }
           },
           {
-            "order": 71,
             "difficulty": "oni",
+            "order": 71,
             "hash": "78636590dfcf4ce4922b166d2d8da91a",
             "title": {
               "en": "Matsuken Samba Ⅱ",
@@ -4086,17 +4169,17 @@
               "zh": "MATSUKEN SAMBA II"
             }
           }
-        ],
-        "color": "#000000",
-        "backgroundColor": "#000000"
+        ]
       },
       {
         "name": "F",
         "order": 6,
+        "color": "#000000",
+        "backgroundColor": "#000000",
         "songs": [
           {
-            "order": 0,
             "difficulty": "oni",
+            "order": 0,
             "hash": "7c52a17886b3dd692b4fffb68a1d85ad",
             "title": {
               "en": "Harudion",
@@ -4106,8 +4189,8 @@
             }
           },
           {
-            "order": 1,
             "difficulty": "oni",
+            "order": 1,
             "hash": "bdc2122551dccfea899d110b098c1ea8",
             "title": {
               "en": "Kill Carry On",
@@ -4116,8 +4199,8 @@
             }
           },
           {
-            "order": 2,
             "difficulty": "oni",
+            "order": 2,
             "hash": "3b21ba35323cc284d909d1c1c3260aa6",
             "title": {
               "en": "Show",
@@ -4127,8 +4210,8 @@
             }
           },
           {
-            "order": 3,
             "difficulty": "ura",
+            "order": 3,
             "hash": "b4f5f15de584fa1357a85c6f91b60503",
             "title": {
               "en": "THE iDOLM@STER -New Audio/Chart-",
@@ -4137,8 +4220,8 @@
             }
           },
           {
-            "order": 4,
             "difficulty": "oni",
+            "order": 4,
             "hash": "b7b5082906ecc4e19dd0f3a48100e4b9",
             "title": {
               "en": "Goodbye Sengen",
@@ -4148,8 +4231,8 @@
             }
           },
           {
-            "order": 5,
             "difficulty": "oni",
+            "order": 5,
             "hash": "f6751ac7feb2596df2f726a9aaebe235",
             "title": {
               "en": "Taiko Ranbu Kaiden",
@@ -4159,8 +4242,8 @@
             }
           },
           {
-            "order": 6,
             "difficulty": "oni",
+            "order": 6,
             "hash": "788189a7e713e9ca99e4feac79d426bc",
             "title": {
               "en": "Kimi no Planet",
@@ -4170,8 +4253,8 @@
             }
           },
           {
-            "order": 7,
             "difficulty": "oni",
+            "order": 7,
             "hash": "ba6a8153588bf66cae8a8959c38b3d36",
             "title": {
               "en": "Warera Muteki no Dokon Dan",
@@ -4180,8 +4263,8 @@
             }
           },
           {
-            "order": 8,
             "difficulty": "oni",
+            "order": 8,
             "hash": "5d9730339e74443686c33968c87b8032",
             "title": {
               "en": "PERFECT HUMAN",
@@ -4189,8 +4272,8 @@
             }
           },
           {
-            "order": 9,
             "difficulty": "oni",
+            "order": 9,
             "hash": "67c742d8d9efe3708de677565b39441b",
             "title": {
               "en": "Sayonara Elegy",
@@ -4200,8 +4283,8 @@
             }
           },
           {
-            "order": 10,
             "difficulty": "oni",
+            "order": 10,
             "hash": "1c48435bb8ba0c0e0ad742f03dafafbe",
             "title": {
               "en": "R.Y.U.S.E.I.",
@@ -4209,18 +4292,8 @@
             }
           },
           {
-            "order": 11,
             "difficulty": "oni",
-            "hash": "b2886a236c2bbaa26b634f8f4579dae2",
-            "title": {
-              "en": "Neon Sign",
-              "ja": "Neon Sign",
-              "zh": "Neon Sign"
-            }
-          },
-          {
             "order": 12,
-            "difficulty": "oni",
             "hash": "251029f6d918f0cceee464e11d99a6b8",
             "title": {
               "en": "Kamisama no Iutoori ni",
@@ -4229,8 +4302,8 @@
             }
           },
           {
-            "order": 13,
             "difficulty": "oni",
+            "order": 13,
             "hash": "d7b12930536dca03a297fc8c87276e0b",
             "title": {
               "en": "Linda wa Kyou mo Zekkouchou",
@@ -4240,8 +4313,8 @@
             }
           },
           {
-            "order": 14,
             "difficulty": "oni",
+            "order": 14,
             "hash": "98dd9ab5480123988a212405e98cacea",
             "title": {
               "en": "Fuun Shishi",
@@ -4251,8 +4324,8 @@
             }
           },
           {
-            "order": 15,
             "difficulty": "oni",
+            "order": 15,
             "hash": "2b4ad8524a676723b95efb12e7bee66a",
             "title": {
               "en": "Sekai wa Anata ni Waraikakete Iru",
@@ -4262,8 +4335,8 @@
             }
           },
           {
-            "order": 16,
             "difficulty": "oni",
+            "order": 16,
             "hash": "cc67c55b60920dd0509113702e5ce749",
             "title": {
               "en": "Mitsusegawa Ranbu",
@@ -4273,8 +4346,8 @@
             }
           },
           {
-            "order": 17,
             "difficulty": "oni",
+            "order": 17,
             "hash": "97f7e62f18565a43055cc9aee626c139",
             "title": {
               "en": "Watashi Igai Watashi ja Nai no",
@@ -4283,8 +4356,8 @@
             }
           },
           {
-            "order": 18,
             "difficulty": "oni",
+            "order": 18,
             "hash": "14dc2b19941be50813a2c1716be1926a",
             "title": {
               "en": "Himitsuki-tuber",
@@ -4293,8 +4366,8 @@
             }
           },
           {
-            "order": 19,
             "difficulty": "oni",
+            "order": 19,
             "hash": "f037328d59a6cf0f9c8f430a65762a40",
             "title": {
               "en": "I my moko",
@@ -4302,13 +4375,9 @@
               "zh": "I my moko"
             }
           }
-        ],
-        "color": "#000000",
-        "backgroundColor": "#000000"
+        ]
       }
-    ],
-    "color": "#000000",
-    "backgroundColor": "#000000"
+    ]
   },
-  "comment": "수정일: 2026.4.4 / 내용: 투표 결과 반영 및 삭제곡 제거"
+  "comment": "수정일: 2026.10.18 / 내용: 9~10월 신채보 업데이트 및 삭제곡 제거"
 }

@@ -144,14 +144,14 @@ export default {
     usersOnline: '0 users online | {n} user online | {n} users online',
     onlineUnavailable: 'Online count unavailable',
     globalLeaderboard: 'Global Leaderboard',
-    rankPoints: '#{rank}: {points} points',
+    rankRating: '#{rank}: {rating} rating',
     notRankedYet: 'Not ranked yet',
     recentScores: 'Recent Scores',
   },
   leaderboard: {
     title: 'Leaderboard',
-    subtitle: 'Total score, Oni + Ura',
-    thTotalScore: 'Total Score',
+    subtitle: 'Average rating of best 50 songs, Oni + Ura',
+    thRating: 'Rating',
   },
   publicUser: {
     userNotFound: 'User not found.',

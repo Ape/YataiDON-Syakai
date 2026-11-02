@@ -4,7 +4,7 @@ import { onMounted, ref } from 'vue'
 interface LeaderboardEntry {
   id: number
   username: string
-  total_score: number
+  rating: number
   crown_clear: number
   crown_full_combo: number
   crown_donderful: number
@@ -41,7 +41,7 @@ onMounted(async () => {
         <tr>
           <th class="th-cell">{{ $t('common.rank') }}</th>
           <th class="th-cell">{{ $t('common.username') }}</th>
-          <th class="th-cell">{{ $t('leaderboard.thTotalScore') }}</th>
+          <th class="th-cell">{{ $t('leaderboard.thRating') }}</th>
           <th class="th-cell">{{ $t('scores.tierClear') }}</th>
           <th class="th-cell">{{ $t('scores.tierFullCombo') }}</th>
           <th class="th-cell">{{ $t('scores.tierDonderful') }}</th>
@@ -51,7 +51,7 @@ onMounted(async () => {
         <tr v-for="(entry, index) in entries" :key="entry.id">
           <td class="td-cell">{{ index + 1 }}</td>
           <td class="td-cell"><router-link :to="`/u/${entry.id}`" class="row-link">{{ entry.username }}</router-link></td>
-          <td class="td-cell">{{ entry.total_score.toLocaleString() }}</td>
+          <td class="td-cell">{{ entry.rating.toFixed(2) }}</td>
           <td class="td-cell">{{ entry.crown_clear }}</td>
           <td class="td-cell">{{ entry.crown_full_combo }}</td>
           <td class="td-cell">{{ entry.crown_donderful }}</td>

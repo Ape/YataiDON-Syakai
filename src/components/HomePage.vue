@@ -12,7 +12,7 @@ const { songTitle, difficultyLabel } = useSongDisplay()
 const onlineCount = ref<number | null>(null)
 const recentScores = ref<Score[]>([])
 const rank = ref<number | null>(null)
-const totalScore = ref<number | null>(null)
+const rating = ref<number | null>(null)
 
 onMounted(async () => {
   const [onlineRes, recentRes, leaderboardRes] = await Promise.allSettled([
@@ -32,13 +32,13 @@ onMounted(async () => {
   }
 
   if (leaderboardRes.status === 'fulfilled' && leaderboardRes.value.ok) {
-    const data: { leaderboard: { username: string; total_score: number }[] } =
+    const data: { leaderboard: { username: string; rating: number }[] } =
       await leaderboardRes.value.json()
     const index = data.leaderboard.findIndex((entry) => entry.username === props.user.username)
     const entry = index !== -1 ? data.leaderboard[index] : undefined
     if (entry) {
       rank.value = index + 1
-      totalScore.value = entry.total_score
+      rating.value = entry.rating
     }
   }
 })
@@ -56,7 +56,7 @@ onMounted(async () => {
     <div class="flex w-full flex-col items-center gap-1">
       <span class="muted text-sm">{{ $t('home.globalLeaderboard') }}</span>
       <p v-if="rank !== null">
-        {{ $t('home.rankPoints', { rank, points: totalScore!.toLocaleString() }) }}
+        {{ $t('home.rankRating', { rank, rating: rating!.toFixed(2) }) }}
       </p>
       <p v-else class="muted">{{ $t('home.notRankedYet') }}</p>
     </div>
